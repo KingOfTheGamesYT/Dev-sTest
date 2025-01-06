@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "devs_test:items/loot_extractor"
+  }
+}

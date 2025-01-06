@@ -1,0 +1,44 @@
+modLoader="javafml"
+
+loaderVersion="[36,)"
+
+license="All rights reserved"
+
+issueTrackerURL="Do Not report any Issues you find"
+
+[[mods]]
+itemIcon="devs_test:loot_extractor"
+
+configBackground="devs_test:textures/items/miners_dream.png"
+
+modId="devs_test"
+
+version="1.0.0"
+
+displayName="Dev's Test"
+
+displayURL="https://github.com/KingOfTheGamesYT/Dev-sTest"
+
+logoFile="logo.png"
+
+credits="All credit goes to DevMaster1015 aka RedRoseWarrior1"
+
+authors=["RedRoseWarrior1 aka DevMaster1015"]
+
+description='''Adds different ideas I had to play rround with'''
+
+# Base Forge
+[[dependencies.devs_test]]
+    modId="forge"
+    mandatory=true
+    versionRange="[36,)"
+    ordering="NONE"
+    side="BOTH"
+
+# Base Minecraft
+[[dependencies.devs_test]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5,1.17]"
+    ordering="NONE"
+    side="BOTH"

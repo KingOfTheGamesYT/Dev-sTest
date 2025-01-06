@@ -1,0 +1,20 @@
+{
+"_comment": "Items",
+
+  "item.devs_test.miners_dream": "Miner's Dream",
+  "item.devs_test.loot_extractor": "Loot Extractor",
+  "item.devs_test.shapeshifter_spawn_egg": "Spawn Shapeshifter",
+  "item.devs_test.body_guard_spwn_egg": "Spawn Body Guard",
+  "item.devs_test.jeb_spawn_egg": "Spawn Jeb",
+  "item.devs_test.charged_creeper_spawn_egg": "Spawn Charged Creeper",
+
+"_comment": "Entities",
+ 
+ "entity.devs_test.shapeshifter": "Shapeshifter",
+ "entity.devs_test.body_guard": "Body Guard",
+
+"_comment": "Creative Tab",
+ 
+  "itemGroup.main": "Dev's Test Items",
+  "itemGroup.egg": "Dev's Test Spawn Eggs",
+}
