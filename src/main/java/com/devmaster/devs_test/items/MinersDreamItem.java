@@ -1,17 +1,13 @@
 package com.devmaster.devs_test.items;
 
-import com.devmaster.dangerzone.misc.DangerZone;
-import net.minecraft.client.util.ITooltipFlag;
+import com.devmaster.devs_test.misc.Devs_Test;
+
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.*;
 import net.minecraft.util.math.BlockPos;
-import net.minecraft.util.text.ITextComponent;
-import net.minecraft.util.text.StringTextComponent;
 import net.minecraft.world.World;
-
-import java.util.List;
 
 import static net.minecraft.block.Blocks.*;
 import static net.minecraft.util.Direction.*;
@@ -19,7 +15,7 @@ import static net.minecraft.util.Direction.*;
 public class MinersDreamItem extends Item {
 
 	public MinersDreamItem() {
-		super(new Item.Properties().group(DangerZone.TAB));
+		super(new Item.Properties().group(Devs_Test.ITEMS));
 	}
 
 	@Override
@@ -51,9 +47,7 @@ public class MinersDreamItem extends Item {
 							world.setBlockState(topPos, COBBLESTONE.getDefaultState());
 						}
 
-
-						if (world.getBlockState(newPos).isIn(DangerZone.MINERS_DREAM_MINEABLE)) {
-
+						if (world.getBlockState(newPos).isIn(Devs_Test.MINERS_DREAM_MINEABLE)) {
 
 							world.setBlockState(newPos, AIR.getDefaultState());
 							if(x == 0 && y == 0 && z % 5 == 0) {
@@ -66,8 +60,5 @@ public class MinersDreamItem extends Item {
 			return new ActionResult<>(ActionResultType.SUCCESS, stack);
 		}
 		return new ActionResult<>(ActionResultType.FAIL, stack);
-	}
-	public void addInformation(ItemStack stack, World worldIn, List<ITextComponent> tooltip, ITooltipFlag flagIn){
-		tooltip.add(new StringTextComponent("\u00A72" + "You've gotta try it! Make one. Now. Take it underground, tap it on a block in front of you at your feet, and be amazed! Indeed. It removes blocks from a large area, leaving only the ores behind, instantly. It even lights the place up with torches. All you need to do is run amok with your pickaxe and reap the rewards!" + "\u00A72"));
 	}
 }

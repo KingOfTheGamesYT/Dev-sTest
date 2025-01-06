@@ -4,6 +4,7 @@ import com.devmaster.devs_test.util.RegistryHandler;
 
 import net.minecraft.block.Block;
 import net.minecraft.item.ItemGroup;
+import net.minecraft.item.ItemStack;
 import net.minecraft.tags.BlockTags;
 import net.minecraft.tags.ITag;
 import net.minecraftforge.common.MinecraftForge;
@@ -16,12 +17,11 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-@Mod("simplisticsuperswords")
+@Mod("devs_test")
 public class Devs_Test {
     public static final Logger LOGGER = LogManager.getLogger("Dev's Test");
     public static final String MOD_ID = "devs_test";
     public static final ITag.INamedTag<Block> MINERS_DREAM_MINEABLE = BlockTags.makeWrapperTag(Devs_Test.MOD_ID+":miners_dream_breakable");
-    public static final ItemGroup TAB = new DangerZoneItems();
 
     public Devs_Test() {
        FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
@@ -36,5 +36,13 @@ public class Devs_Test {
     }
     private void doClientStuff(final FMLClientSetupEvent event) {
     }
+
+    public static final ItemGroup ITEMS = new ItemGroup("main") {
+
+        @Override
+        public ItemStack createIcon() {
+            return new ItemStack(RegistryHandler.MINERS_DREAM.get());
+        }
+    };
 }
 

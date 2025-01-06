@@ -1,10 +1,12 @@
 package com.devmaster.devs_test.util;
 
+import com.devmaster.devs_test.items.MinersDreamItem;
 import com.devmaster.devs_test.misc.Devs_Test;
 
 import net.minecraft.block.Block;
 import net.minecraft.item.*;
 
+import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -28,6 +30,7 @@ public class RegistryHandler {
     //Entities
 
     //Items
+    public static final RegistryObject<Item> MINERS_DREAM = ITEMS.register("miners_dream", MinersDreamItem::new);
 
     //Tools and Weapons
 

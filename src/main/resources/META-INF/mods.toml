@@ -4,8 +4,6 @@ loaderVersion="[36,)"
 
 license="All rights reserved"
 
-issueTrackerURL="Do Not report any Issues you find"
-
 [[mods]]
 itemIcon="devs_test:loot_extractor"
 
