@@ -1,5 +1,6 @@
 package com.devmaster.devs_test.util;
 
+import com.devmaster.devs_test.items.LootExtractor;
 import com.devmaster.devs_test.items.MinersDreamItem;
 import com.devmaster.devs_test.misc.Devs_Test;
 
@@ -31,6 +32,7 @@ public class RegistryHandler {
 
     //Items
     public static final RegistryObject<Item> MINERS_DREAM = ITEMS.register("miners_dream", MinersDreamItem::new);
+    public static final RegistryObject<Item> LOOT_EXTRACTOR = ITEMS.register("loot_extractor", LootExtractor::new);
 
     //Tools and Weapons
 
