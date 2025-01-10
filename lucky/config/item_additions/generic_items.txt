@@ -1,0 +1,14 @@
+rainbow.rainbow_gem_____rainbow gem_____true
+rainbow.empty_orb_____empty orb
+rainbow.fire_orb_____fire orb_____true
+rainbow.haste_orb_____haste orb_____true
+rainbow.healing_orb_____healing orb_____true
+rainbow.jumping_orb_____jumping orb_____true
+rainbow.poison_orb_____poison orb_____true
+rainbow.water_orb_____water orb_____true
+rainbow.wind_orb_____wind orb_____true
+rainbow.Xray_orb_____Xray orb_____true
+rainbow.furious_orb_____furious orb_____true
+rainbow.troll_stick_____trolling stick_____true
+rainbow.wither_storm_____wither storm trophy
+rainbow.soul_____Soul of determination

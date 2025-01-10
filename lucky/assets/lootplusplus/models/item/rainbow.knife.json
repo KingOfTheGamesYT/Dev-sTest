@@ -1,0 +1,18 @@
+{
+    "parent": "builtin/generated",
+    "textures": {
+        "layer0": "lootplusplus:items/rainbow.knife"
+    },
+    "display": {
+        "thirdperson": {
+            "rotation": [ 0, 90, 40 ],
+            "translation": [ 0, 1.25, 1.75 ],
+            "scale": [ 1, 1, 1 ]
+        },
+        "firstperson": {
+            "rotation": [ 0, -135, 15 ],
+            "translation": [ 0, 4, 2 ],
+            "scale": [ 1.7, 1.7, 1.7 ]
+        }
+    }
+}

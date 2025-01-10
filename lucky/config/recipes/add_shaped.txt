@@ -1,0 +1,54 @@
+lootplusplus:rainbow.SuperGirlyGamer_helmet_____1_____0_____{}_____ggg,g g_____g_____lootplusplus:rainbow.pink_pufferfish_____0_____{}
+lootplusplus:rainbow.SuperGirlyGamer_leggings_____1_____0_____{}_____ggg,g g,g g_____g_____lootplusplus:rainbow.pink_pufferfish_____0_____{}
+lootplusplus:rainbow.SuperGirlyGamer_chestplate_____1_____0_____{}_____g g,ggg,ggg_____g_____lootplusplus:rainbow.pink_pufferfish_____0_____{}
+lootplusplus:rainbow.SuperGirlyGamer_boots_____1_____0_____{}_____   ,g g,g g_____g_____lootplusplus:rainbow.pink_pufferfish_____0_____{}
+lootplusplus:rainbow.pink_pufferfish_____1_____0_____{}_____ggg,ghg,ggg_____h_____minecraft:fish_____3_____{}_____g_____minecraft:dye_____9_____{}
+lootplusplus:rainbow.rainbow_helmet_____1_____0_____{}_____ggg,g g_____g_____lootplusplus:rainbow.rainbow_gem_____0_____{}
+lootplusplus:rainbow.rainbow_leggings_____1_____0_____{}_____ggg,g g,g g_____g_____lootplusplus:rainbow.rainbow_gem_____0_____{}
+lootplusplus:rainbow.rainbow_chestplate_____1_____0_____{}_____g g,ggg,ggg_____g_____lootplusplus:rainbow.rainbow_gem_____0_____{}
+lootplusplus:rainbow.rainbow_boots_____1_____0_____{}_____   ,g g,g g_____g_____lootplusplus:rainbow.rainbow_gem_____0_____{}
+lucky:lucky_block_rainbow_____1_____0_____{}_____ggg,ghg,ggg_____g_____lootplusplus:rainbow.rainbow_gem_____0_____{}_____h_____lucky:lucky_block_____0_____{}
+lootplusplus:rainbow.rainbow_gem_____1_____0_____{}_____ggg,gdg,ggg_____d_____minecraft:diamond_____0_____{}_____g_____minecraft:glowstone_dust_____0_____{}
+lootplusplus:rainbow.rainbow_axe_____1_____0_____{}_____gg ,gb , b _____b_____minecraft:blaze_rod_____0_____{}_____g_____lootplusplus:rainbow.rainbow_gem_____0_____{}
+lootplusplus:rainbow.rainbow_hoe_____1_____0_____{}_____gg , b , b _____b_____minecraft:blaze_rod_____0_____{}_____g_____lootplusplus:rainbow.rainbow_gem_____0_____{}
+lootplusplus:rainbow.rainbow_pickaxe_____1_____0_____{}_____ggg, b , b _____b_____minecraft:blaze_rod_____0_____{}_____g_____lootplusplus:rainbow.rainbow_gem_____0_____{}
+lootplusplus:rainbow.rainbow_shovel_____1_____0_____{}_____ g , b , b _____b_____minecraft:blaze_rod_____0_____{}_____g_____lootplusplus:rainbow.rainbow_gem_____0_____{}
+lootplusplus:rainbow.rainbow_sword_____1_____0_____{}_____ g , g , b _____b_____minecraft:blaze_rod_____0_____{}_____g_____lootplusplus:rainbow.rainbow_gem_____0_____{}
+lootplusplus:rainbow.quick_wand_____1_____0_____{}_____ cg, ec,c  _____c_____minecraft:stick_____0_____{}_____g_____lootplusplus:rainbow.rainbow_gem_____0_____{}_____e_____minecraft:emerald_____0_____{}
+lootplusplus:rainbow.power_wand_____1_____0_____{}_____ cg, ec,c  _____c_____minecraft:redstone_block_____0_____{}_____g_____lootplusplus:rainbow.rainbow_gem_____0_____{}_____e_____minecraft:emerald_____0_____{}
+lootplusplus:rainbow.empty_orb_____1_____0_____{}_____ q ,qgq, q _____q_____minecraft:quartz_____0_____{}_____g_____lootplusplus:rainbow.rainbow_gem_____0_____{}
+lootplusplus:rainbow.furious_blade_____1_____0_____{}_____  f,if ,si _____i_____minecraft:iron_ingot_____0_____{}_____f_____lootplusplus:rainbow.furious_orb_____0_____{}_____s_____minecraft:stick_____0_____{}
+lootplusplus:rainbow.FuriousDestroyer_helmet_____1_____0_____{}_____fff,f f,   _____f_____lootplusplus:rainbow.furious_orb_____0_____{}
+lootplusplus:rainbow.FuriousDestroyer_chestplate_____1_____0_____{}_____f f,fff,fff_____f_____lootplusplus:rainbow.furious_orb_____0_____{}
+lootplusplus:rainbow.FuriousDestroyer_leggings_____1_____0_____{}_____fff,f f,f f_____f_____lootplusplus:rainbow.furious_orb_____0_____{}
+lootplusplus:rainbow.FuriousDestroyer_boots_____1_____0_____{}_____   ,f f,f f_____f_____lootplusplus:rainbow.furious_orb_____0_____{}
+lootplusplus:rainbow.pink_hoe_____1_____0_____{}_____ppp, s ,s  _____p_____lootplusplus:rainbow.pink_pufferfish_____0_____{}_____s_____minecraft:stick_____0_____{}
+lootplusplus:rainbow.invisibility_cloak_____1_____0_____{}_____ e ,wsw,wsw_____e_____lootplusplus:rainbow.empty_orb_____0_____{}_____s_____minecraft:string_____0_____{}_____w_____minecraft:wool_____0_____{}
+lootplusplus:rainbow.miner_helmet_____1_____0_____{}_____lgl,l l,   _____l_____minecraft:leather_____0_____{}_____g_____minecraft:glowstone_dust_____0_____{}
+lootplusplus:rainbow.miner_chestplate_____1_____0_____{}_____l l,lil,lil_____l_____minecraft:leather_____0_____{}_____i_____minecraft:iron_ingot_____0_____{}
+lootplusplus:rainbow.miner_leggings_____1_____0_____{}_____lll,i i,l l_____l_____minecraft:leather_____0_____{}_____i_____minecraft:iron_ingot_____0_____{}
+lootplusplus:rainbow.miner_boots_____1_____0_____{}_____   ,l l,i i_____l_____minecraft:leather_____0_____{}_____i_____minecraft:iron_ingot_____0_____{}
+lootplusplus:rainbow.FuriousDestroyer_pickaxe_____1_____0_____{}_____fpf, b , b _____f_____lootplusplus:rainbow.furious_orb_____0_____{}_____p_____lootplusplus:rainbow.poison_orb_____0_____{}_____b_____minecraft:blaze_rod_____0_____{}
+lootplusplus:rainbow.FuriousDestroyer_axe_____1_____0_____{}_____pf ,fb , b _____f_____lootplusplus:rainbow.furious_orb_____0_____{}_____p_____lootplusplus:rainbow.poison_orb_____0_____{}_____b_____minecraft:blaze_rod_____0_____{}
+lootplusplus:rainbow.FuriousDestroyer_shovel_____1_____0_____{}_____ f , b , b _____f_____lootplusplus:rainbow.furious_orb_____0_____{}_____b_____minecraft:blaze_rod_____0_____{}
+lootplusplus:rainbow.SuperGirlyGamer_pickaxe_____1_____0_____{}_____php, b , b _____h_____lootplusplus:rainbow.healing_orb_____0_____{}_____p_____lootplusplus:rainbow.pink_pufferfish_____0_____{}_____b_____minecraft:blaze_rod_____0_____{}
+lootplusplus:rainbow.SuperGirlyGamer_axe_____1_____0_____{}_____hp ,pb , b _____h_____lootplusplus:rainbow.healing_orb_____0_____{}_____p_____lootplusplus:rainbow.pink_pufferfish_____0_____{}_____b_____minecraft:blaze_rod_____0_____{}
+lootplusplus:rainbow.SuperGirlyGamer_shovel_____1_____0_____{}_____ p , b , b _____p_____lootplusplus:rainbow.pink_pufferfish_____0_____{}_____b_____minecraft:blaze_rod_____0_____{}
+lootplusplus:rainbow.emerald_boots_____1_____0_____{}_____   ,e e,e e_____e_____minecraft:emerald_____0_____{}
+lootplusplus:rainbow.emerald_helmet_____1_____0_____{}_____eee,e e,   _____e_____minecraft:emerald_____0_____{}
+lootplusplus:rainbow.emerald_leggings_____1_____0_____{}_____eee,e e,e e_____e_____minecraft:emerald_____0_____{}
+lootplusplus:rainbow.emerald_chestplate_____1_____0_____{}_____e e,eee,eee_____e_____minecraft:emerald_____0_____{}
+lootplusplus:rainbow.emerald_sword_____1_____0_____{}_____ e , e , s _____e_____minecraft:emerald_____0_____{}_____s_____minecraft:stick_____0_____{}
+lootplusplus:rainbow.small_bomb_____1_____0_____{}_____wiw,igi,wiw_____w_____minecraft:wool_____13_____{}_____i_____minecraft:iron_ingot_____0_____{}_____g_____minecraft:gunpowder_____0_____{}
+lootplusplus:rainbow.bomb_____1_____0_____{}_____iii,iti,iii_____i_____minecraft:iron_ingot_____0_____{}_____t_____minecraft:tnt_____0_____{}
+lootplusplus:rainbow.big_bomb_____1_____0_____{}_____tit,ibi,tit_____t_____minecraft:tnt_____0_____{}_____i_____minecraft:iron_ingot_____0_____{}_____b_____lootplusplus:rainbow.small_bomb_____0_____{}
+lootplusplus:rainbow.giant_bomb_____1_____0_____{}_____ti ,ibi, it_____i_____minecraft:iron_ingot_____0_____{}_____t_____minecraft:tnt_____0_____{}_____b_____lootplusplus:rainbow.bomb_____0_____{}
+lootplusplus:rainbow.nuke_____1_____0_____{}_____www,mmm,www_____w_____minecraft:wool_____13_____{}_____m_____lootplusplus:rainbow.giant_bomb_____0_____{}
+lootplusplus:rainbow.squidzooka_____1_____0_____{}_____i  , iw,iwd_____i_____minecraft:iron_ingot_____0_____{}_____w_____minecraft:wool_____11_____{}_____d_____minecraft:dye_____0_____{}
+lootplusplus:rainbow.ray_gun_____1_____0_____{}_____gi ,igi, li_____i_____minecraft:iron_ingot_____0_____{}_____g_____minecraft:gunpowder_____0_____{}_____l_____minecraft:leather_____0_____{}
+lootplusplus:rainbow.thunder_staff_____1_____0_____{}_____tr ,rb ,  b_____b_____minecraft:blaze_rod_____0_____{}_____r_____minecraft:redstone_block_____0_____{}_____t_____lootplusplus:rainbow.thunder_shard_____0_____{}
+lootplusplus:rainbow.thunder_shard_____1_____0_____{}_____ rg,rgr,gr _____g_____minecraft:gold_ingot_____0_____{}_____r_____lootplusplus:rainbow.rainbow_gem_____0_____{}
+lootplusplus:rainbow.miners_dream_____1_____0_____{}_____ccc,rrr,ggg_____c_____minecraft:cactus_____0_____{}_____r_____minecraft:redstone_block_____0_____{}_____g_____minecraft:gunpowder_____0_____{}
+lootplusplus:rainbow.diving_helmet_____1_____0_____{}_____iii,igi,iwi_____i_____minecraft:iron_ingot_____0_____{}_____g_____minecraft:glass_pane_____0_____{}_____w_____lootplusplus:rainbow.water_orb_____0_____{}
+lootplusplus:rainbow.hot_pepper_____1_____0_____{}_____rrr,rcr,rrr_____r_____minecraft:redstone_____0_____{}_____c_____minecraft:carrot_____0_____{}
+lootplusplus:rainbow.taco_____1_____0_____{}_____ppp,wsw, w _____p_____lootplusplus:rainbow.hot_pepper_____0_____{}_____w_____minecraft:wheat_____0_____{}_____s_____minecraft:cooked_beef_____0_____{}

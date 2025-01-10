@@ -1,0 +1,151 @@
+lootplusplus:rainbow.nyan_cat_boots_____-1_____{}_____0.2_____lppcondition testforblock ~ ~-1 ~ air _if_true_ lppcondition testforblock ~ ~ ~ air _if_true_ setblock ~ ~-1 ~ stained_glass
+lootplusplus:rainbow.nyan_cat_boots_____-1_____{}_____1.0_____lppcondition testforblock ~-1 ~-1 ~ stained_glass _if_true_ setblock ~-1 ~-1 ~ air 
+lootplusplus:rainbow.nyan_cat_boots_____-1_____{}_____1.0_____lppcondition testforblock ~1 ~-1 ~ stained_glass _if_true_ setblock ~1 ~-1 ~ air
+lootplusplus:rainbow.nyan_cat_boots_____-1_____{}_____1.0_____lppcondition testforblock ~ ~-1 ~1 stained_glass _if_true_ setblock ~ ~-1 ~1 air
+lootplusplus:rainbow.nyan_cat_boots_____-1_____{}_____1.0_____lppcondition testforblock ~ ~-1 ~-1 stained_glass _if_true_ setblock ~ ~-1 ~-1 air
+lootplusplus:rainbow.nyan_cat_boots_____-1_____{}_____0.2_____lppcondition testforblock ~ ~-1 ~ air _if_true_ lppcondition testforblock ~ ~ ~ air _if_true_ setblock ~ ~-1 ~ stained_glass 1
+lootplusplus:rainbow.nyan_cat_boots_____-1_____{}_____0.2_____lppcondition testforblock ~ ~-1 ~ air _if_true_ lppcondition testforblock ~ ~ ~ air _if_true_ setblock ~ ~-1 ~ stained_glass 2
+lootplusplus:rainbow.nyan_cat_boots_____-1_____{}_____0.2_____lppcondition testforblock ~ ~-1 ~ air _if_true_ lppcondition testforblock ~ ~ ~ air _if_true_ setblock ~ ~-1 ~ stained_glass 3
+lootplusplus:rainbow.nyan_cat_boots_____-1_____{}_____0.2_____lppcondition testforblock ~ ~-1 ~ air _if_true_ lppcondition testforblock ~ ~ ~ air _if_true_ setblock ~ ~-1 ~ stained_glass 4
+lootplusplus:rainbow.nyan_cat_boots_____-1_____{}_____0.2_____lppcondition testforblock ~ ~-1 ~ air _if_true_ lppcondition testforblock ~ ~ ~ air _if_true_ setblock ~ ~-1 ~ stained_glass 5
+lootplusplus:rainbow.nyan_cat_boots_____-1_____{}_____0.2_____lppcondition testforblock ~ ~-1 ~ air _if_true_ lppcondition testforblock ~ ~ ~ air _if_true_ setblock ~ ~-1 ~ stained_glass 6
+lootplusplus:rainbow.nyan_cat_boots_____-1_____{}_____0.2_____lppcondition testforblock ~ ~-1 ~ air _if_true_ lppcondition testforblock ~ ~ ~ air _if_true_ setblock ~ ~-1 ~ stained_glass 9
+lootplusplus:rainbow.nyan_cat_boots_____-1_____{}_____0.2_____lppcondition testforblock ~ ~-1 ~ air _if_true_ lppcondition testforblock ~ ~ ~ air _if_true_ setblock ~ ~-1 ~ stained_glass 10
+lootplusplus:rainbow.nyan_cat_boots_____-1_____{}_____0.2_____lppcondition testforblock ~ ~-1 ~ air _if_true_ lppcondition testforblock ~ ~ ~ air _if_true_ setblock ~ ~-1 ~ stained_glass 11
+lootplusplus:rainbow.nyan_cat_boots_____-1_____{}_____0.2_____lppcondition testforblock ~ ~-1 ~ air _if_true_ lppcondition testforblock ~ ~ ~ air _if_true_ setblock ~ ~-1 ~ stained_glass 13
+lootplusplus:rainbow.nyan_cat_boots_____-1_____{}_____0.2_____lppcondition testforblock ~ ~-1 ~ air _if_true_ lppcondition testforblock ~ ~ ~ air _if_true_ setblock ~ ~-1 ~ stained_glass 14
+lootplusplus:rainbow.nyan_cat_boots_____-1_____{}_____1.0_____lppcondition testforblock ~-1 ~-2 ~ stained_glass _if_true_ setblock ~-1 ~-2 ~ air 
+lootplusplus:rainbow.nyan_cat_boots_____-1_____{}_____1.0_____lppcondition testforblock ~1 ~-2 ~ stained_glass _if_true_ setblock ~1 ~-2 ~ air
+lootplusplus:rainbow.nyan_cat_boots_____-1_____{}_____1.0_____lppcondition testforblock ~ ~-2 ~1 stained_glass _if_true_ setblock ~ ~-2 ~1 air
+lootplusplus:rainbow.nyan_cat_boots_____-1_____{}_____1.0_____lppcondition testforblock ~ ~-2 ~-1 stained_glass _if_true_ setblock ~ ~-2 ~-1 air
+lootplusplus:rainbow.nyan_cat_boots_____-1_____{}_____1.0_____lppcondition testforblock ~-1 ~-1 ~1 stained_glass _if_true_ setblock ~-1 ~-1 ~1 air 
+lootplusplus:rainbow.nyan_cat_boots_____-1_____{}_____1.0_____lppcondition testforblock ~1 ~-1 ~-1 stained_glass _if_true_ setblock ~1 ~-1 ~-1 air
+lootplusplus:rainbow.nyan_cat_boots_____-1_____{}_____1.0_____lppcondition testforblock ~1 ~-1 ~1 stained_glass _if_true_ setblock ~1 ~-1 ~1 air
+lootplusplus:rainbow.nyan_cat_boots_____-1_____{}_____1.0_____lppcondition testforblock ~-1 ~-1 ~-1 stained_glass _if_true_ setblock ~-1 ~-1 ~-1 air
+lootplusplus:rainbow.nyan_cat_boots_____-1_____{}_____1.0_____lppcondition testforblock ~-1 ~-2 ~1 stained_glass _if_true_ setblock ~-1 ~-2 ~1 air 
+lootplusplus:rainbow.nyan_cat_boots_____-1_____{}_____1.0_____lppcondition testforblock ~1 ~-2 ~-1 stained_glass _if_true_ setblock ~1 ~-2 ~-1 air
+lootplusplus:rainbow.nyan_cat_boots_____-1_____{}_____1.0_____lppcondition testforblock ~1 ~-2 ~1 stained_glass _if_true_ setblock ~1 ~-2 ~1 air
+lootplusplus:rainbow.nyan_cat_boots_____-1_____{}_____1.0_____lppcondition testforblock ~-1 ~-2 ~-1 stained_glass _if_true_ setblock ~-1 ~-2 ~-1 air
+lootplusplus:rainbow.nyan_cat_boots_____-1_____{}_____1.0_____lppcondition testforblock ~ ~-2 ~ stained_glass _if_true_ setblock ~ ~-2 ~ air
+lootplusplus:rainbow.nyan_cat_boots_____-1_____{}_____0.0001_____playsound lootplusplus:records.nyan_cat @a ~ ~ ~ 100
+lootplusplus:rainbow.diving_helmet_____-1_____{}_____1.0_____lppcondition testforblock ~ ~-1 ~ flowing_water _if_true_ setblock ~ ~-1 ~ air
+lootplusplus:rainbow.diving_helmet_____-1_____{}_____1.0_____lppcondition testforblock ~ ~ ~ flowing_water _if_true_ setblock ~ ~ ~ air
+lootplusplus:rainbow.diving_helmet_____-1_____{}_____1.0_____lppcondition testforblock ~ ~1 ~ flowing_water _if_true_ setblock ~ ~1 ~ air
+lootplusplus:rainbow.diving_helmet_____-1_____{}_____1.0_____lppcondition testforblock ~1 ~-1 ~ flowing_water _if_true_ setblock ~1 ~-1 ~ air
+lootplusplus:rainbow.diving_helmet_____-1_____{}_____1.0_____lppcondition testforblock ~1 ~ ~ flowing_water _if_true_ setblock ~1 ~ ~ air
+lootplusplus:rainbow.diving_helmet_____-1_____{}_____1.0_____lppcondition testforblock ~1 ~1 ~ flowing_water _if_true_ setblock ~1 ~1 ~ air
+lootplusplus:rainbow.diving_helmet_____-1_____{}_____1.0_____lppcondition testforblock ~-1 ~-1 ~ flowing_water _if_true_ setblock ~-1 ~-1 ~ air
+lootplusplus:rainbow.diving_helmet_____-1_____{}_____1.0_____lppcondition testforblock ~-1 ~ ~ flowing_water _if_true_ setblock ~-1 ~ ~ air
+lootplusplus:rainbow.diving_helmet_____-1_____{}_____1.0_____lppcondition testforblock ~-1 ~1 ~ flowing_water _if_true_ setblock ~-1 ~1 ~ air
+lootplusplus:rainbow.diving_helmet_____-1_____{}_____1.0_____lppcondition testforblock ~ ~-1 ~1 flowing_water _if_true_ setblock ~ ~-1 ~1 air
+lootplusplus:rainbow.diving_helmet_____-1_____{}_____1.0_____lppcondition testforblock ~ ~ ~1 flowing_water _if_true_ setblock ~ ~ ~1 air
+lootplusplus:rainbow.diving_helmet_____-1_____{}_____1.0_____lppcondition testforblock ~ ~1 ~1 flowing_water _if_true_ setblock ~ ~1 ~1 air
+lootplusplus:rainbow.diving_helmet_____-1_____{}_____1.0_____lppcondition testforblock ~ ~-1 ~-1 flowing_water _if_true_ setblock ~ ~-1 ~-1 air
+lootplusplus:rainbow.diving_helmet_____-1_____{}_____1.0_____lppcondition testforblock ~ ~ ~-1 flowing_water _if_true_ setblock ~ ~ ~-1 air
+lootplusplus:rainbow.diving_helmet_____-1_____{}_____1.0_____lppcondition testforblock ~ ~1 ~-1 flowing_water _if_true_ setblock ~ ~1 ~-1 air
+lootplusplus:rainbow.diving_helmet_____-1_____{}_____1.0_____lppcondition testforblock ~1 ~-1 ~1 flowing_water _if_true_ setblock ~1 ~-1 ~1 air
+lootplusplus:rainbow.diving_helmet_____-1_____{}_____1.0_____lppcondition testforblock ~1 ~ ~1 flowing_water _if_true_ setblock ~1 ~ ~1 air
+lootplusplus:rainbow.diving_helmet_____-1_____{}_____1.0_____lppcondition testforblock ~1 ~1 ~1 flowing_water _if_true_ setblock ~1 ~1 ~1 air
+lootplusplus:rainbow.diving_helmet_____-1_____{}_____1.0_____lppcondition testforblock ~-1 ~-1 ~1 flowing_water _if_true_ setblock ~-1 ~-1 ~1 air
+lootplusplus:rainbow.diving_helmet_____-1_____{}_____1.0_____lppcondition testforblock ~-1 ~ ~1 flowing_water _if_true_ setblock ~-1 ~ ~1 air
+lootplusplus:rainbow.diving_helmet_____-1_____{}_____1.0_____lppcondition testforblock ~-1 ~1 ~1 flowing_water _if_true_ setblock ~-1 ~1 ~1 air
+lootplusplus:rainbow.diving_helmet_____-1_____{}_____1.0_____lppcondition testforblock ~1 ~-1 ~-1 flowing_water _if_true_ setblock ~1 ~-1 ~-1 air
+lootplusplus:rainbow.diving_helmet_____-1_____{}_____1.0_____lppcondition testforblock ~1 ~ ~-1 flowing_water _if_true_ setblock ~1 ~ ~-1 air
+lootplusplus:rainbow.diving_helmet_____-1_____{}_____1.0_____lppcondition testforblock ~1 ~1 ~-1 flowing_water _if_true_ setblock ~1 ~1 ~-1 air
+lootplusplus:rainbow.diving_helmet_____-1_____{}_____1.0_____lppcondition testforblock ~-1 ~-1 ~-1 flowing_water _if_true_ setblock ~-1 ~-1 ~-1 air
+lootplusplus:rainbow.diving_helmet_____-1_____{}_____1.0_____lppcondition testforblock ~-1 ~ ~-1 flowing_water _if_true_ setblock ~-1 ~ ~-1 air
+lootplusplus:rainbow.diving_helmet_____-1_____{}_____1.0_____lppcondition testforblock ~-1 ~1 ~-1 flowing_water _if_true_ setblock ~-1 ~1 ~-1 air
+lootplusplus:rainbow.diving_helmet_____-1_____{}_____1.0_____lppcondition testforblock ~ ~-1 ~ water _if_true_ setblock ~ ~-1 ~ air
+lootplusplus:rainbow.diving_helmet_____-1_____{}_____1.0_____lppcondition testforblock ~ ~ ~ water _if_true_ setblock ~ ~ ~ air
+lootplusplus:rainbow.diving_helmet_____-1_____{}_____1.0_____lppcondition testforblock ~ ~1 ~ water _if_true_ setblock ~ ~1 ~ air
+lootplusplus:rainbow.diving_helmet_____-1_____{}_____1.0_____lppcondition testforblock ~1 ~-1 ~ water _if_true_ setblock ~1 ~-1 ~ air
+lootplusplus:rainbow.diving_helmet_____-1_____{}_____1.0_____lppcondition testforblock ~1 ~ ~ water _if_true_ setblock ~1 ~ ~ air
+lootplusplus:rainbow.diving_helmet_____-1_____{}_____1.0_____lppcondition testforblock ~1 ~1 ~ water _if_true_ setblock ~1 ~1 ~ air
+lootplusplus:rainbow.diving_helmet_____-1_____{}_____1.0_____lppcondition testforblock ~-1 ~-1 ~ water _if_true_ setblock ~-1 ~-1 ~ air
+lootplusplus:rainbow.diving_helmet_____-1_____{}_____1.0_____lppcondition testforblock ~-1 ~ ~ water _if_true_ setblock ~-1 ~ ~ air
+lootplusplus:rainbow.diving_helmet_____-1_____{}_____1.0_____lppcondition testforblock ~-1 ~1 ~ water _if_true_ setblock ~-1 ~1 ~ air
+lootplusplus:rainbow.diving_helmet_____-1_____{}_____1.0_____lppcondition testforblock ~ ~-1 ~1 water _if_true_ setblock ~ ~-1 ~1 air
+lootplusplus:rainbow.diving_helmet_____-1_____{}_____1.0_____lppcondition testforblock ~ ~ ~1 water _if_true_ setblock ~ ~ ~1 air
+lootplusplus:rainbow.diving_helmet_____-1_____{}_____1.0_____lppcondition testforblock ~ ~1 ~1 water _if_true_ setblock ~ ~1 ~1 air
+lootplusplus:rainbow.diving_helmet_____-1_____{}_____1.0_____lppcondition testforblock ~ ~-1 ~-1 water _if_true_ setblock ~ ~-1 ~-1 air
+lootplusplus:rainbow.diving_helmet_____-1_____{}_____1.0_____lppcondition testforblock ~ ~ ~-1 water _if_true_ setblock ~ ~ ~-1 air
+lootplusplus:rainbow.diving_helmet_____-1_____{}_____1.0_____lppcondition testforblock ~ ~1 ~-1 water _if_true_ setblock ~ ~1 ~-1 air
+lootplusplus:rainbow.diving_helmet_____-1_____{}_____1.0_____lppcondition testforblock ~1 ~-1 ~1 water _if_true_ setblock ~1 ~-1 ~1 air
+lootplusplus:rainbow.diving_helmet_____-1_____{}_____1.0_____lppcondition testforblock ~1 ~ ~1 water _if_true_ setblock ~1 ~ ~1 air
+lootplusplus:rainbow.diving_helmet_____-1_____{}_____1.0_____lppcondition testforblock ~1 ~1 ~1 water _if_true_ setblock ~1 ~1 ~1 air
+lootplusplus:rainbow.diving_helmet_____-1_____{}_____1.0_____lppcondition testforblock ~-1 ~-1 ~1 water _if_true_ setblock ~-1 ~-1 ~1 air
+lootplusplus:rainbow.diving_helmet_____-1_____{}_____1.0_____lppcondition testforblock ~-1 ~ ~1 water _if_true_ setblock ~-1 ~ ~1 air
+lootplusplus:rainbow.diving_helmet_____-1_____{}_____1.0_____lppcondition testforblock ~-1 ~1 ~1 water _if_true_ setblock ~-1 ~1 ~1 air
+lootplusplus:rainbow.diving_helmet_____-1_____{}_____1.0_____lppcondition testforblock ~1 ~-1 ~-1 water _if_true_ setblock ~1 ~-1 ~-1 air
+lootplusplus:rainbow.diving_helmet_____-1_____{}_____1.0_____lppcondition testforblock ~1 ~ ~-1 water _if_true_ setblock ~1 ~ ~-1 air
+lootplusplus:rainbow.diving_helmet_____-1_____{}_____1.0_____lppcondition testforblock ~1 ~1 ~-1 water _if_true_ setblock ~1 ~1 ~-1 air
+lootplusplus:rainbow.diving_helmet_____-1_____{}_____1.0_____lppcondition testforblock ~-1 ~-1 ~-1 water _if_true_ setblock ~-1 ~-1 ~-1 air
+lootplusplus:rainbow.diving_helmet_____-1_____{}_____1.0_____lppcondition testforblock ~-1 ~ ~-1 water _if_true_ setblock ~-1 ~ ~-1 air
+lootplusplus:rainbow.diving_helmet_____-1_____{}_____1.0_____lppcondition testforblock ~-1 ~1 ~-1 water _if_true_ setblock ~-1 ~1 ~-1 air
+
+lootplusplus:rainbow.herobrine_chestplate_____-1_____{}_____1.0_____scoreboard objectives add DEATH dummy
+lootplusplus:rainbow.herobrine_chestplate_____-1_____{}_____1.0_____scoreboard objectives add FIRE dummy
+lootplusplus:rainbow.herobrine_chestplate_____-1_____{}_____1.0_____scoreboard objectives add POISON dummy
+lootplusplus:rainbow.herobrine_chestplate_____-1_____{}_____1.0_____scoreboard objectives add HEAL dummy
+lootplusplus:rainbow.herobrine_chestplate_____-1_____{}_____1.0_____scoreboard objectives add MINIONS dummy
+lootplusplus:rainbow.herobrine_chestplate_____-1_____{}_____1.0_____scoreboard objectives add LAVA dummy
+lootplusplus:rainbow.herobrine_chestplate_____-1_____{}_____1.0_____scoreboard objectives add LIGHTNING dummy
+lootplusplus:rainbow.herobrine_chestplate_____-1_____{}_____1.0_____scoreboard objectives add PARTICLE dummy
+lootplusplus:rainbow.herobrine_chestplate_____-1_____{}_____1.0_____scoreboard players add @e[name=Herobrine] FIRE 1
+lootplusplus:rainbow.herobrine_chestplate_____-1_____{}_____1.0_____scoreboard players add @e[name=Herobrine] HEAL 1
+lootplusplus:rainbow.herobrine_chestplate_____-1_____{}_____1.0_____scoreboard players add @e[name=Herobrine] MINIONS 1
+lootplusplus:rainbow.herobrine_chestplate_____-1_____{}_____1.0_____scoreboard players add @e[name=Herobrine] POISON 1
+lootplusplus:rainbow.herobrine_chestplate_____-1_____{}_____1.0_____scoreboard players add @e[name=Herobrine] LAVA 1
+lootplusplus:rainbow.herobrine_chestplate_____-1_____{}_____1.0_____scoreboard players add @e[name=Herobrine] LIGHTNING 1
+lootplusplus:rainbow.herobrine_chestplate_____-1_____{}_____1.0_____scoreboard players add @e[name=Herobrine] PARTICLE 1
+
+lootplusplus:rainbow.herobrine_chestplate_____-1_____{}_____1.0_____execute @e[name=Herobrine,score_PARTICLE=10,score_PARTICLE_min=10] ~ ~ ~ particle flame ~ ~1 ~ 0 0 0 0.02 20
+lootplusplus:rainbow.herobrine_chestplate_____-1_____{}_____1.0_____execute @e[name=Herobrine,score_PARTICLE=20,score_PARTICLE_min=20] ~ ~ ~ scoreboard players set @e[name=Herobrine] PARTICLE 0
+
+lootplusplus:rainbow.herobrine_chestplate_____-1_____{}_____1.0_____execute @e[name=Herobrine,score_HEAL=1000,score_HEAL_min=1000] ~ ~ ~ effect @e[name=Herobrine] 7 25 1
+lootplusplus:rainbow.herobrine_chestplate_____-1_____{}_____1.0_____execute @e[name=Herobrine,score_HEAL=1000,score_HEAL_min=1000] ~ ~ ~ tellraw @a ["",{"text":"Looks like Herobrine is healing","color":"light_purple","bold":true}]
+lootplusplus:rainbow.herobrine_chestplate_____-1_____{}_____1.0_____execute @e[name=Herobrine,score_HEAL=1020,score_HEAL_min=1000] ~ ~ ~ summon FireworksRocketEntity ~ ~4 ~ {LifeTime:0,FireworksItem:{id:fireworks,Count:1,tag:{Fireworks:{Explosions:[{Type:1,Flicker:0,Trail:0,Colors:[16721100],FadeColors:[16481023]}]}}}}
+
+lootplusplus:rainbow.herobrine_chestplate_____-1_____{}_____1.0_____execute @e[name=Herobrine,score_MINIONS=405,score_MINIONS_min=400] ~5 ~2 ~ summon Blaze
+lootplusplus:rainbow.herobrine_chestplate_____-1_____{}_____1.0_____execute @e[name=Herobrine,score_MINIONS=405,score_MINIONS_min=400] ~ ~2 ~5 summon Blaze
+lootplusplus:rainbow.herobrine_chestplate_____-1_____{}_____1.0_____execute @e[name=Herobrine,score_MINIONS=405,score_MINIONS_min=400] ~5 ~2 ~5 summon Blaze
+lootplusplus:rainbow.herobrine_chestplate_____-1_____{}_____1.0_____execute @e[name=Herobrine,score_MINIONS=405,score_MINIONS_min=400] ~-5 ~2 ~ summon Blaze
+lootplusplus:rainbow.herobrine_chestplate_____-1_____{}_____1.0_____execute @e[name=Herobrine,score_MINIONS=405,score_MINIONS_min=400] ~ ~2 ~-5 summon Blaze
+lootplusplus:rainbow.herobrine_chestplate_____-1_____{}_____1.0_____execute @e[name=Herobrine,score_MINIONS=405,score_MINIONS_min=400] ~-5 ~2 ~-5 summon Blaze
+lootplusplus:rainbow.herobrine_chestplate_____-1_____{}_____1.0_____execute @e[name=Herobrine,score_MINIONS=405,score_MINIONS_min=400] ~5 ~2 ~-5 summon Blaze
+lootplusplus:rainbow.herobrine_chestplate_____-1_____{}_____1.0_____execute @e[name=Herobrine,score_MINIONS=405,score_MINIONS_min=400] ~-5 ~2 ~5 summon Blaze
+lootplusplus:rainbow.herobrine_chestplate_____-1_____{}_____1.0_____execute @e[name=Herobrine,score_MINIONS=1500,score_MINIONS_min=1500] ~ ~2 ~ kill @e[type=Blaze]
+
+lootplusplus:rainbow.herobrine_chestplate_____-1_____{}_____1.0_____execute @e[name=Herobrine,score_FIRE=705,score_FIRE_min=700] ~ ~ ~ summon FireworksRocketEntity ~ ~ ~ {LifeTime:22,FireworksItem:{id:fireworks,Count:1,tag:{Fireworks:{Explosions:[{Type:1,Flicker:0,Trail:0,Colors:[16711680],FadeColors:[16776988]}]}}}}
+lootplusplus:rainbow.herobrine_chestplate_____-1_____{}_____1.0_____execute @e[name=Herobrine,score_FIRE=770,score_FIRE_min=770] ~1 ~10 ~ summon Fireball ~ ~ ~ {ExplosionPower:5,direction:[3.0,-3.4,0.0]}
+lootplusplus:rainbow.herobrine_chestplate_____-1_____{}_____1.0_____execute @e[name=Herobrine,score_FIRE=770,score_FIRE_min=770] ~ ~10 ~1 summon Fireball ~ ~ ~ {ExplosionPower:5,direction:[0.0,-3.4,3.0]}
+lootplusplus:rainbow.herobrine_chestplate_____-1_____{}_____1.0_____execute @e[name=Herobrine,score_FIRE=770,score_FIRE_min=770] ~-1 ~10 ~ summon Fireball ~ ~ ~ {ExplosionPower:5,direction:[-3.0,-3.4,0.0]}
+lootplusplus:rainbow.herobrine_chestplate_____-1_____{}_____1.0_____execute @e[name=Herobrine,score_FIRE=770,score_FIRE_min=770] ~ ~10 ~-1 summon Fireball ~ ~ ~ {ExplosionPower:5,direction:[0.0,-3.4,-3.0]}
+
+lootplusplus:rainbow.herobrine_chestplate_____-1_____{}_____1.0_____lppcondition testfor @e[name=Herobrine,score_LIGHTNING=175,score_LIGHTNING_min=150] _if_true_ execute @a ~3 ~10 ~ summon Silverfish ~ ~ ~ {CustomName:"Lightning",CustomNameVisible:(0),Silent:1,ActiveEffects:[{Id:14,Amplifier:1,Duration:999999},{Id:1,Amplifier:3,Duration:999999}],Attributes:[{Name:generic.maxHealth,Base:500}],HealF:500}
+lootplusplus:rainbow.herobrine_chestplate_____-1_____{}_____1.0_____lppcondition testfor @e[name=Herobrine,score_LIGHTNING=175,score_LIGHTNING_min=150] _if_true_ execute @e[name=Herobrine,score_LIGHTNING=175,score_LIGHTNING_min=150] ~ ~ ~ summon Silverfish ~ ~ ~ {CustomName:"Lightning",CustomNameVisible:(0),Silent:1,ActiveEffects:[{Id:14,Amplifier:1,Duration:999999},{Id:1,Amplifier:3,Duration:999999}],Attributes:[{Name:generic.maxHealth,Base:500}],HealF:500}
+lootplusplus:rainbow.herobrine_chestplate_____-1_____{}_____1.0_____lppcondition testfor @e[name=Herobrine,score_LIGHTNING=250,score_LIGHTNING_min=250] _if_true_ execute @e[name=Lightning] ~ ~ ~ summon LightningBolt ~ ~ ~
+lootplusplus:rainbow.herobrine_chestplate_____-1_____{}_____1.0_____lppcondition testfor @e[name=Herobrine,score_LIGHTNING=260,score_LIGHTNING_min=260] _if_true_ kill @e[name=Lightning]
+
+lootplusplus:rainbow.herobrine_chestplate_____-1_____{}_____1.0_____lppcondition testfor @e[name=Herobrine,score_POISON=800,score_POISON_min=800] _if_true_ effect @a 19 10 4
+lootplusplus:rainbow.herobrine_chestplate_____-1_____{}_____1.0_____lppcondition testfor @e[name=Herobrine,score_POISON=800,score_POISON_min=800] _if_true_ effect @a 15 1 2
+lootplusplus:rainbow.herobrine_chestplate_____-1_____{}_____1.0_____lppcondition testfor @e[name=Herobrine,score_POISON=800,score_POISON_min=800] _if_true_ execute @a ~ ~ ~ particle mobappearance ~ ~ ~ 0.1 0.1 0.1 0 1
+lootplusplus:rainbow.herobrine_chestplate_____-1_____{}_____1.0_____lppcondition testfor @e[name=Herobrine,score_POISON=800,score_POISON_min=800] _if_true_ playsound mob.enderdragon.growl @a ~ ~ ~ 100
+
+lootplusplus:rainbow.herobrine_chestplate_____-1_____{}_____1.0_____lppcondition testfor @e[name=Herobrine,score_LAVA=560,score_LAVA_min=550] _if_true_ execute @e[name=Herobrine,score_LAVA=560,score_LAVA_min=550] ~ ~1 ~ summon Silverfish ~ ~ ~ {CustomName:"Lava",CustomNameVisible:(0),Silent:1,ActiveEffects:[{Id:14,Amplifier:1,Duration:999999},{Id:1,Amplifier:3,Duration:999999}],Attributes:[{Name:generic.maxHealth,Base:500}],HealF:500}
+lootplusplus:rainbow.herobrine_chestplate_____-1_____{}_____1.0_____lppcondition testfor @e[name=Herobrine,score_LAVA=759,score_LAVA_min=560] _if_true_ execute @e[name=Lava] ~ ~ ~ setblock ~1 ~-1 ~ lava
+lootplusplus:rainbow.herobrine_chestplate_____-1_____{}_____1.0_____lppcondition testfor @e[name=Herobrine,score_LAVA=760,score_LAVA_min=760] _if_true_ kill @e[name=Lava]
+
+lootplusplus:rainbow.herobrine_chestplate_____-1_____{}_____1.0_____lppcondition testfor @e[name=Herobrine,score_FIRE=1200,score_FIRE_min=1200] _if_true_ scoreboard players set @e[name=Herobrine] FIRE 1
+lootplusplus:rainbow.herobrine_chestplate_____-1_____{}_____1.0_____lppcondition testfor @e[name=Herobrine,score_HEAL=1500,score_HEAL_min=1500] _if_true_ scoreboard players set @e[name=Herobrine] HEAL 1
+lootplusplus:rainbow.herobrine_chestplate_____-1_____{}_____1.0_____lppcondition testfor @e[name=Herobrine,score_MINIONS=1800,score_MINIONS_min=1800] _if_true_ scoreboard players set @e[name=Herobrine] MINIONS 1
+lootplusplus:rainbow.herobrine_chestplate_____-1_____{}_____1.0_____lppcondition testfor @e[name=Herobrine,score_POISON=900,score_POISON_min=900] _if_true_ scoreboard players set @e[name=Herobrine] POISON 1
+lootplusplus:rainbow.herobrine_chestplate_____-1_____{}_____1.0_____lppcondition testfor @e[name=Herobrine,score_LAVA=1000,score_LAVA_min=1000] _if_true_ scoreboard players set @e[name=Herobrine] LAVA 1
+lootplusplus:rainbow.herobrine_chestplate_____-1_____{}_____1.0_____lppcondition testfor @e[name=Herobrine,score_LIGHTNING=500,score_LIGHTNING_min=500] _if_true_ scoreboard players set @e[name=Herobrine] LIGHTNING 1
+
+lootplusplus:rainbow.herobrine_chestplate_____-1_____{}_____1.0_____lppcondition testfor @e[name=Herobrine] _if_false_ scoreboard players add Death DEATH 1
+lootplusplus:rainbow.herobrine_chestplate_____-1_____{}_____1.0_____lppcondition testfor @e[name=Death,score_DEATH=1,score_DEATH_min=1] _if_true_ kill @e[type=Blaze]
+lootplusplus:rainbow.herobrine_chestplate_____-1_____{}_____1.0_____lppcondition testfor @e[name=Death,score_DEATH=1,score_DEATH_min=1] _if_true_ kill @e[name=LIGHTNING]
+lootplusplus:rainbow.herobrine_chestplate_____-1_____{}_____1.0_____lppcondition testfor @e[name=Death,score_DEATH=1,score_DEATH_min=1] _if_true_ kill @e[name=LAVA]
+lootplusplus:rainbow.herobrine_chestplate_____-1_____{}_____1.0_____lppcondition testfor @e[name=Death,score_DEATH=2,score_DEATH_min=2] _if_true_ scoreboard players set Death DEATH 1
+

@@ -1,0 +1,9 @@
+>properties
+length=3
+height=1
+width=1
+
+>blocks
+0,0,0,lucky:lucky_block,0,(Luck=-100)
+1,0,0,standing_sign,0,(Text1="",Text2="One is lucky.",Text3="One is not.",Text4="")
+2,0,0,lucky:lucky_block,0,(Luck=100)

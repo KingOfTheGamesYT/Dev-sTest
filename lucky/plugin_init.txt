@@ -1,0 +1,4 @@
+id=lucky_block_rainbow
+sword_id=rainbow_lucky_sword
+bow_id=rainbow_lucky_bow
+potion_id=rainbow_lucky_potion

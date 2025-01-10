@@ -1,0 +1,18 @@
+{
+    "parent": "builtin/generated",
+    "textures": {
+        "layer0": "lootplusplus:items/rainbow.Betty"
+    },
+    "display": {
+        "thirdperson": {
+            "rotation": [ 0, 90, -125 ],
+            "translation": [ 0, 3, -12.5 ],
+            "scale": [ 3, 3, 2 ]
+        },
+        "firstperson": {
+            "rotation": [ 0, -135, 0 ],
+            "translation": [ 0, 6, 0 ],
+            "scale": [ 4, 4, 3 ]
+        }
+    }
+}

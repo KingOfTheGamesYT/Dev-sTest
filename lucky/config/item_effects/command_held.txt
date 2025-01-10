@@ -1,0 +1,114 @@
+lootplusplus:rainbow.power_wand_____-1_____{}_____1.0_____execute @e[type=Arrow] ~ ~ ~ /summon FireworksRocketEntity ~ ~ ~ {LifeTime:0,FireworksItem:{id:401,Count:­1,tag:{Fireworks:{Explosions:[{Type:0,Fl­icker:0,Trail:0,Colors:[16711680,16737792,16776960],FadeColors:[16711680,16737792,16776960]}]}}}}
+lootplusplus:rainbow.power_wand_____-1_____{}_____1.0_____scoreboard players set @e[type=Arrow] OBJECTIVE 1 {inGround:1b}
+lootplusplus:rainbow.power_wand_____-1_____{}_____1.0_____kill @e[type=Arrow,score_OBJECTIVE_min=1]
+lootplusplus:rainbow.power_wand_____-1_____{}_____1.0_____scoreboard objectives add OBJECTIVE dummy
+lootplusplus:rainbow.power_wand_____-1_____{}_____1.0_____enchant @p 51 1
+lootplusplus:rainbow.quick_wand_____-1_____{}_____1.0_____execute @e[type=Arrow] ~ ~ ~ /summon FireworksRocketEntity ~ ~ ~ {LifeTime:0,FireworksItem:{id:401,Count:­1,tag:{Fireworks:{Explosions:[{Type:0,Fl­icker:0,Trail:0,Colors:[6737151,10092339,39372],FadeColors:[6737151,10092339,39372]}]}}}}
+lootplusplus:rainbow.quick_wand_____-1_____{}_____1.0_____scoreboard players set @e[type=Arrow] OBJECTIVE 1 {inGround:1b}
+lootplusplus:rainbow.quick_wand_____-1_____{}_____1.0_____kill @e[type=Arrow,score_OBJECTIVE_min=1]
+lootplusplus:rainbow.quick_wand_____-1_____{}_____1.0_____scoreboard objectives add OBJECTIVE dummy
+lootplusplus:rainbow.quick_wand_____-1_____{}_____1.0_____enchant @p 51 1
+lootplusplus:rainbow.thunder_staff_____-1_____{}_____1.0_____enchant @p 51 1
+lootplusplus:rainbow.ray_gun_____-1_____{}_____1.0_____enchant @p 51 1
+lootplusplus:rainbow.squidzooka_____-1_____{}_____1.0_____enchant @p 51 1
+
+lootplusplus:rainbow.wither_storm_____-1_____{}_____1.0_____lppcondition testfor @e[name=WitherStorm] _if_false_ scoreboard players add @e[name=WitherStorm_Ghast] DEATH 1
+lootplusplus:rainbow.wither_storm_____-1_____{}_____1.0_____lppcondition testfor @e[name=WitherStorm_Ghast] _if_false_ scoreboard players add @e[name=WitherStorm] DEATH 1
+
+lootplusplus:rainbow.wither_storm_____-1_____{}_____1.0_____scoreboard objectives add DEATH dummy
+lootplusplus:rainbow.wither_storm_____-1_____{}_____1.0_____scoreboard objectives add FIRE dummy
+lootplusplus:rainbow.wither_storm_____-1_____{}_____1.0_____scoreboard objectives add WITHER dummy
+lootplusplus:rainbow.wither_storm_____-1_____{}_____1.0_____scoreboard objectives add HEAL dummy
+lootplusplus:rainbow.wither_storm_____-1_____{}_____1.0_____scoreboard objectives add MINIONS dummy
+lootplusplus:rainbow.wither_storm_____-1_____{}_____1.0_____scoreboard objectives add LIGHTNING dummy
+lootplusplus:rainbow.wither_storm_____-1_____{}_____1.0_____scoreboard objectives add OBSIDIAN dummy
+lootplusplus:rainbow.wither_storm_____-1_____{}_____1.0_____scoreboard objectives add BATS dummy
+lootplusplus:rainbow.wither_storm_____-1_____{}_____1.0_____scoreboard objectives add LAVA dummy
+lootplusplus:rainbow.wither_storm_____-1_____{}_____1.0_____scoreboard players add @e[name=WitherStorm] FIRE 1
+lootplusplus:rainbow.wither_storm_____-1_____{}_____1.0_____scoreboard players add @e[name=WitherStorm] WITHER 1
+lootplusplus:rainbow.wither_storm_____-1_____{}_____1.0_____scoreboard players add @e[name=WitherStorm] HEAL 1
+lootplusplus:rainbow.wither_storm_____-1_____{}_____1.0_____scoreboard players add @e[name=WitherStorm] MINIONS 1
+lootplusplus:rainbow.wither_storm_____-1_____{}_____1.0_____scoreboard players add @e[name=WitherStorm] LIGHTNING 1
+lootplusplus:rainbow.wither_storm_____-1_____{}_____1.0_____scoreboard players add @e[name=WitherStorm] OBSIDIAN 1
+lootplusplus:rainbow.wither_storm_____-1_____{}_____1.0_____scoreboard players add @e[name=WitherStorm] BATS 1
+lootplusplus:rainbow.wither_storm_____-1_____{}_____1.0_____scoreboard players add @e[name=WitherStorm] LAVA 1
+
+lootplusplus:rainbow.wither_storm_____-1_____{}_____1.0_____execute @e[name=WitherStorm] ~ ~ ~ fill ~-6 ~-15 ~-6 ~6 ~10 ~6 air
+
+lootplusplus:rainbow.wither_storm_____-1_____{}_____1.0_____execute @e[name=WitherStorm,score_OBSIDIAN=525,score_OBSIDIAN_min=500] ~ ~15 ~ summon FallingSand ~ ~ ~ {Motion:[x:3.0,y:0.3,z:0.0],Block:"minecraft:obsidian",Time:1}
+lootplusplus:rainbow.wither_storm_____-1_____{}_____1.0_____execute @e[name=WitherStorm,score_OBSIDIAN=525,score_OBSIDIAN_min=500] ~ ~15 ~ summon FallingSand ~1 ~ ~ {Motion:[x:2.0,y:0.3,z:1.0],Block:"minecraft:obsidian",Time:1}
+lootplusplus:rainbow.wither_storm_____-1_____{}_____1.0_____execute @e[name=WitherStorm,score_OBSIDIAN=525,score_OBSIDIAN_min=500] ~ ~15 ~ summon FallingSand ~ ~ ~1 {Motion:[x:1.0,y:0.3,z:2.0],Block:"minecraft:obsidian",Time:1}
+lootplusplus:rainbow.wither_storm_____-1_____{}_____1.0_____execute @e[name=WitherStorm,score_OBSIDIAN=525,score_OBSIDIAN_min=500] ~ ~15 ~ summon FallingSand ~1 ~ ~1 {Motion:[x:0.0,y:0.3,z:3.0],Block:"minecraft:obsidian",Time:1}
+lootplusplus:rainbow.wither_storm_____-1_____{}_____1.0_____execute @e[name=WitherStorm,score_OBSIDIAN=525,score_OBSIDIAN_min=500] ~ ~15 ~ summon FallingSand ~-1 ~ ~-1 {Motion:[x:-1.0,y:0.3,z:2.0],Block:"minecraft:obsidian",Time:1}
+lootplusplus:rainbow.wither_storm_____-1_____{}_____1.0_____execute @e[name=WitherStorm,score_OBSIDIAN=525,score_OBSIDIAN_min=500] ~ ~15 ~ summon FallingSand ~-1 ~ ~ {Motion:[x:-2.0,y:0.3,z:1.0],Block:"minecraft:obsidian",Time:1}
+lootplusplus:rainbow.wither_storm_____-1_____{}_____1.0_____execute @e[name=WitherStorm,score_OBSIDIAN=525,score_OBSIDIAN_min=500] ~ ~15 ~ summon FallingSand ~ ~ ~-1 {Motion:[x:-3.0,y:0.3,z:0.0],Block:"minecraft:obsidian",Time:1}
+lootplusplus:rainbow.wither_storm_____-1_____{}_____1.0_____execute @e[name=WitherStorm,score_OBSIDIAN=525,score_OBSIDIAN_min=500] ~ ~15 ~ summon FallingSand ~1 ~ ~-1 {Motion:[x:-2.0,y:0.3,z:-1.0],Block:"minecraft:obsidian",Time:1}
+lootplusplus:rainbow.wither_storm_____-1_____{}_____1.0_____execute @e[name=WitherStorm,score_OBSIDIAN=525,score_OBSIDIAN_min=500] ~ ~15 ~ summon FallingSand ~-1 ~ ~1 {Motion:[x:-1.0,y:0.3,z:-2.0],Block:"minecraft:obsidian",Time:1}
+lootplusplus:rainbow.wither_storm_____-1_____{}_____1.0_____execute @e[name=WitherStorm,score_OBSIDIAN=525,score_OBSIDIAN_min=500] ~ ~15 ~ summon FallingSand ~2 ~ ~ {Motion:[x:0.0,y:0.3,z:-3.0],Block:"minecraft:obsidian",Time:1}
+lootplusplus:rainbow.wither_storm_____-1_____{}_____1.0_____execute @e[name=WitherStorm,score_OBSIDIAN=525,score_OBSIDIAN_min=500] ~ ~15 ~ summon FallingSand ~ ~ ~2 {Motion:[x:1.0,y:0.3,z:-2.0],Block:"minecraft:obsidian",Time:1}
+lootplusplus:rainbow.wither_storm_____-1_____{}_____1.0_____execute @e[name=WitherStorm,score_OBSIDIAN=525,score_OBSIDIAN_min=500] ~ ~15 ~ summon FallingSand ~2 ~ ~2 {Motion:[x:2.0,y:0.3,z:-1.0],Block:"minecraft:obsidian",Time:1}
+
+lootplusplus:rainbow.wither_storm_____-1_____{}_____1.0_____execute @e[name=WitherStorm,score_FIRE=300,score_FIRE_min=300] ~15 ~-5 ~0 summon Fireball ~ ~ ~ {ExplosionPower:5,direction:[3.0,-3.4,0.0]}
+lootplusplus:rainbow.wither_storm_____-1_____{}_____1.0_____execute @e[name=WitherStorm,score_FIRE=300,score_FIRE_min=300] ~10 ~-5 ~5 summon Fireball ~ ~ ~ {ExplosionPower:5,direction:[2.0,-3.4,1.0]}
+lootplusplus:rainbow.wither_storm_____-1_____{}_____1.0_____execute @e[name=WitherStorm,score_FIRE=300,score_FIRE_min=300] ~5 ~-5 ~10 summon Fireball ~ ~ ~ {ExplosionPower:5,direction:[1.0,-3.4,2.0]}
+lootplusplus:rainbow.wither_storm_____-1_____{}_____1.0_____execute @e[name=WitherStorm,score_FIRE=300,score_FIRE_min=300] ~0 ~-5 ~15 summon Fireball ~ ~ ~ {ExplosionPower:5,direction:[0.0,-3.4,3.0]}
+lootplusplus:rainbow.wither_storm_____-1_____{}_____1.0_____execute @e[name=WitherStorm,score_FIRE=300,score_FIRE_min=300] ~-5 ~-5 ~10 summon Fireball ~ ~ ~ {ExplosionPower:5,direction:[-1.0,-3.4,2.0]}
+lootplusplus:rainbow.wither_storm_____-1_____{}_____1.0_____execute @e[name=WitherStorm,score_FIRE=300,score_FIRE_min=300] ~-10 ~-5 ~5 summon Fireball ~ ~ ~ {ExplosionPower:5,direction:[-2.0,-3.4,1.0]}
+lootplusplus:rainbow.wither_storm_____-1_____{}_____1.0_____execute @e[name=WitherStorm,score_FIRE=300,score_FIRE_min=300] ~-15 ~-5 ~0 summon Fireball ~ ~ ~ {ExplosionPower:5,direction:[-3.0,-3.4,0.0]}
+lootplusplus:rainbow.wither_storm_____-1_____{}_____1.0_____execute @e[name=WitherStorm,score_FIRE=300,score_FIRE_min=300] ~-10 ~-5 ~-5 summon Fireball ~ ~ ~ {ExplosionPower:5,direction:[-2.0,-3.4,-1.0]}
+lootplusplus:rainbow.wither_storm_____-1_____{}_____1.0_____execute @e[name=WitherStorm,score_FIRE=300,score_FIRE_min=300] ~-5 ~-5 ~-10 summon Fireball ~ ~ ~ {ExplosionPower:5,direction:[-1.0,-3.4,-2.0]}
+lootplusplus:rainbow.wither_storm_____-1_____{}_____1.0_____execute @e[name=WitherStorm,score_FIRE=300,score_FIRE_min=300] ~0 ~-5 ~-15 summon Fireball ~ ~ ~ {ExplosionPower:5,direction:[0.0,-3.4,-3.0]}
+lootplusplus:rainbow.wither_storm_____-1_____{}_____1.0_____execute @e[name=WitherStorm,score_FIRE=300,score_FIRE_min=300] ~5 ~-5 ~-10 summon Fireball ~ ~ ~ {ExplosionPower:5,direction:[1.0,-3.4,-2.0]}
+lootplusplus:rainbow.wither_storm_____-1_____{}_____1.0_____execute @e[name=WitherStorm,score_FIRE=300,score_FIRE_min=300] ~10 ~-5 ~-5 summon Fireball ~ ~ ~ {ExplosionPower:5,direction:[2.0,-3.4,-1.0]}
+lootplusplus:rainbow.wither_storm_____-1_____{}_____1.0_____execute @e[name=WitherStorm,score_FIRE=400,score_FIRE_min=400] ~10 ~-5 ~-5 kill @e[type=Fireball]
+
+lootplusplus:rainbow.wither_storm_____-1_____{}_____1.0_____execute @e[name=WitherStorm,score_HEAL=1000,score_HEAL_min=1000] ~ ~15 ~ tellraw @a ["",{"text":"Looks like the Witherstorm is healing","color":"light_purple","bold":true}]
+lootplusplus:rainbow.wither_storm_____-1_____{}_____1.0_____execute @e[name=WitherStorm,score_HEAL=1100,score_HEAL_min=1000] ~ ~15 ~ summon FireworksRocketEntity ~ ~ ~ {LifeTime:0,FireworksItem:{id:fireworks,Count:1,tag:{Fireworks:{Explosions:[{Type:1,Flicker:0,Trail:0,Colors:[16721100],FadeColors:[16481023]}]}}}}
+lootplusplus:rainbow.wither_storm_____-1_____{}_____1.0_____execute @e[name=WitherStorm,score_HEAL=1000,score_HEAL_min=1000] ~ ~15 ~ effect @e[name=WitherStorm] 10 10 5
+lootplusplus:rainbow.wither_storm_____-1_____{}_____1.0_____execute @e[name=WitherStorm,score_HEAL=1000,score_HEAL_min=1000] ~ ~15 ~ effect @e[name=WitherStorm_Ghast] 10 10 5
+
+lootplusplus:rainbow.wither_storm_____-1_____{}_____1.0_____lppcondition testfor @e[name=WitherStorm,score_MINIONS=400,score_MINIONS_min=400] _if_true_ execute @a ~ ~ ~ summon WitherBoss ~5 ~3 ~ {Attributes:[{Name:generic.maxHealth,Base:30}],HealF:30}
+lootplusplus:rainbow.wither_storm_____-1_____{}_____1.0_____lppcondition testfor @e[name=WitherStorm,score_MINIONS=400,score_MINIONS_min=400] _if_true_ execute @a ~ ~ ~ summon WitherBoss ~ ~3 ~5 {Attributes:[{Name:generic.maxHealth,Base:30}],HealF:30}
+lootplusplus:rainbow.wither_storm_____-1_____{}_____1.0_____lppcondition testfor @e[name=WitherStorm,score_MINIONS=400,score_MINIONS_min=400] _if_true_ execute @a ~ ~ ~ summon WitherBoss ~-5 ~3 ~ {Attributes:[{Name:generic.maxHealth,Base:30}],HealF:30}
+lootplusplus:rainbow.wither_storm_____-1_____{}_____1.0_____lppcondition testfor @e[name=WitherStorm,score_MINIONS=400,score_MINIONS_min=400] _if_true_ execute @a ~ ~ ~ summon WitherBoss ~ ~3 ~-5 {Attributes:[{Name:generic.maxHealth,Base:30}],HealF:30}
+lootplusplus:rainbow.wither_storm_____-1_____{}_____1.0_____lppcondition testfor @e[name=WitherStorm,score_MINIONS=600,score_MINIONS_min=600] _if_true_ kill @e[type=WitherBoss]
+
+lootplusplus:rainbow.wither_storm_____-1_____{}_____1.0_____lppcondition testfor @e[name=WitherStorm,score_LAVA=900,score_LAVA_min=850] _if_true_ execute @a ~ ~ ~ summon Rabbit ~3 ~3 ~ {CustomName:"Lava",CustomNameVisible:(0),Silent:1,ActiveEffects:[{Id:14,Amplifier:1,Duration:999999},{Id:1,Amplifier:3,Duration:999999}],Attributes:[{Name:generic.maxHealth,Base:500}],HealF:500}
+lootplusplus:rainbow.wither_storm_____-1_____{}_____1.0_____lppcondition testfor @e[name=WitherStorm,score_LAVA=900,score_LAVA_min=850] _if_true_ execute @e[name=WitherStorm,score_LAVA=200,score_LAVA_min=150] ~ ~ ~ summon Rabbit ~ ~ ~ {CustomName:"Lava",CustomNameVisible:(0),Silent:1,ActiveEffects:[{Id:14,Amplifier:1,Duration:999999},{Id:1,Amplifier:3,Duration:999999}],Attributes:[{Name:generic.maxHealth,Base:500}],HealF:500}
+lootplusplus:rainbow.wither_storm_____-1_____{}_____1.0_____lppcondition testfor @e[name=WitherStorm,score_LAVA=950,score_LAVA_min=950] _if_true_ execute @e[name=Lava] ~ ~ ~ setblock ~ ~-1 ~ lava
+lootplusplus:rainbow.wither_storm_____-1_____{}_____1.0_____lppcondition testfor @e[name=WitherStorm,score_LAVA=960,score_LAVA_min=960] _if_true_ kill @e[name=Lava]
+
+lootplusplus:rainbow.wither_storm_____-1_____{}_____1.0_____lppcondition testfor @e[name=WitherStorm,score_LIGHTNING=200,score_LIGHTNING_min=150] _if_true_ execute @a ~3 ~3 ~ summon Rabbit ~ ~ ~ {CustomName:"Lightning",CustomNameVisible:(0),Silent:1,ActiveEffects:[{Id:14,Amplifier:1,Duration:999999},{Id:1,Amplifier:3,Duration:999999}],Attributes:[{Name:generic.maxHealth,Base:500}],HealF:500}
+lootplusplus:rainbow.wither_storm_____-1_____{}_____1.0_____lppcondition testfor @e[name=WitherStorm,score_LIGHTNING=200,score_LIGHTNING_min=150] _if_true_ execute @e[name=WitherStorm,score_LIGHTNING=200,score_LIGHTNING_min=150] ~ ~ ~ summon Rabbit ~ ~ ~ {CustomName:"Lightning",CustomNameVisible:(0),Silent:1,ActiveEffects:[{Id:14,Amplifier:1,Duration:999999},{Id:1,Amplifier:3,Duration:999999}],Attributes:[{Name:generic.maxHealth,Base:500}],HealF:500}
+lootplusplus:rainbow.wither_storm_____-1_____{}_____1.0_____lppcondition testfor @e[name=WitherStorm,score_LIGHTNING=250,score_LIGHTNING_min=250] _if_true_ execute @e[name=Lightning] ~ ~ ~ summon LightningBolt ~ ~ ~
+lootplusplus:rainbow.wither_storm_____-1_____{}_____1.0_____lppcondition testfor @e[name=WitherStorm,score_LIGHTNING=260,score_LIGHTNING_min=260] _if_true_ kill @e[name=Lightning]
+
+lootplusplus:rainbow.wither_storm_____-1_____{}_____1.0_____lppcondition testfor @e[name=WitherStorm,score_BATS=30,score_BATS_min=1] _if_true_ summon FallingSand ~ ~ ~ {Block:"minecraft:obsidian",Time:1,Riding:{id:Bat,Silent:1,ActiveEffects:[{Id:14,Amplifier:1,Duration:999999}]}}
+lootplusplus:rainbow.wither_storm_____-1_____{}_____1.0_____lppcondition testfor @e[name=WitherStorm,score_BATS=200,score_BATS_min=200] _if_true_ kill @e[type=Bat]
+
+lootplusplus:rainbow.wither_storm_____-1_____{}_____1.0_____lppcondition testfor @e[name=WitherStorm,score_WITHER=800,score_WITHER_min=800] _if_true_ effect @a 20 10 2
+lootplusplus:rainbow.wither_storm_____-1_____{}_____1.0_____lppcondition testfor @e[name=WitherStorm,score_WITHER=800,score_WITHER_min=800] _if_true_ effect @a 15 1 2
+lootplusplus:rainbow.wither_storm_____-1_____{}_____1.0_____lppcondition testfor @e[name=WitherStorm,score_WITHER=800,score_WITHER_min=800] _if_true_ execute @a ~ ~ ~ particle mobappearance ~ ~ ~ 0.1 0.1 0.1 0 1
+lootplusplus:rainbow.wither_storm_____-1_____{}_____1.0_____lppcondition testfor @e[name=WitherStorm,score_WITHER=800,score_WITHER_min=800] _if_true_ playsound mob.enderdragon.growl @a ~ ~ ~ 100
+
+lootplusplus:rainbow.wither_storm_____-1_____{}_____1.0_____lppcondition testfor @e[name=WitherStorm,score_FIRE=450,score_FIRE_min=450] _if_true_ scoreboard players set @e[name=WitherStorm] FIRE 1
+lootplusplus:rainbow.wither_storm_____-1_____{}_____1.0_____lppcondition testfor @e[name=WitherStorm,score_WITHER=900,score_WITHER_min=900] _if_true_ scoreboard players set @e[name=WitherStorm] WITHER 1
+lootplusplus:rainbow.wither_storm_____-1_____{}_____1.0_____lppcondition testfor @e[name=WitherStorm,score_HEAL=1500,score_HEAL_min=1500] _if_true_ scoreboard players set @e[name=WitherStorm] HEAL 1
+lootplusplus:rainbow.wither_storm_____-1_____{}_____1.0_____lppcondition testfor @e[name=WitherStorm,score_MINIONS=650,score_MINIONS_min=650] _if_true_ scoreboard players set @e[name=WitherStorm] MINIONS 1
+lootplusplus:rainbow.wither_storm_____-1_____{}_____1.0_____lppcondition testfor @e[name=WitherStorm,score_LIGHTNING=400,score_LIGHTNING_min=400] _if_true_ scoreboard players set @e[name=WitherStorm] LIGHTNING 1
+lootplusplus:rainbow.wither_storm_____-1_____{}_____1.0_____lppcondition testfor @e[name=WitherStorm,score_OBSIDIAN=700,score_OBSIDIAN_min=700] _if_true_ scoreboard players set @e[name=WitherStorm] OBSIDIAN 1
+lootplusplus:rainbow.wither_storm_____-1_____{}_____1.0_____lppcondition testfor @e[name=WitherStorm,score_BATS=400,score_BATS_min=400] _if_true_ scoreboard players set @e[name=WitherStorm] BATS 1
+lootplusplus:rainbow.wither_storm_____-1_____{}_____1.0_____lppcondition testfor @e[name=WitherStorm,score_LAVA=1000,score_LAVA_min=1000] _if_true_ scoreboard players set @e[name=WitherStorm] LAVA 1
+
+lootplusplus:rainbow.wither_storm_____-1_____{}_____1.0_____lppcondition testfor @e[name=WitherStorm,score_DEATH=2,score_DEATH_min=2] _if_true_ kill @e[type=Bat]
+lootplusplus:rainbow.wither_storm_____-1_____{}_____1.0_____lppcondition testfor @e[name=WitherStorm,score_DEATH=2,score_DEATH_min=2] _if_true_ kill @e[type=Wither]
+lootplusplus:rainbow.wither_storm_____-1_____{}_____1.0_____lppcondition testfor @e[name=WitherStorm,score_DEATH=2,score_DEATH_min=2] _if_true_ kill @e[name=LIGHTNING]
+lootplusplus:rainbow.wither_storm_____-1_____{}_____1.0_____lppcondition testfor @e[name=WitherStorm,score_DEATH=2,score_DEATH_min=2] _if_true_ kill @e[name=Lava]
+lootplusplus:rainbow.wither_storm_____-1_____{}_____1.0_____lppcondition testfor @e[name=WitherStorm,score_DEATH=2,score_DEATH_min=2] _if_true_ playsound mob.enderdragon.end @a ~ ~ ~ 100
+lootplusplus:rainbow.wither_storm_____-1_____{}_____1.0_____lppcondition testfor @e[name=WitherStorm,score_DEATH=5,score_DEATH_min=5] _if_true_ tellraw @p ["",{"text":"you may have won this time,","color":"red","bold":true}]
+lootplusplus:rainbow.wither_storm_____-1_____{}_____1.0_____lppcondition testfor @e[name=WitherStorm,score_DEATH=30,score_DEATH_min=30] _if_true_ tellraw @p ["",{"text":"but I will return. AND I WILL DESTROY YOU!!!","color":"red","bold":true}]
+lootplusplus:rainbow.wither_storm_____-1_____{}_____1.0_____lppcondition testfor @e[name=WitherStorm,score_DEATH=40,score_DEATH_min=40] _if_true_ tellraw @a ["",{"text":"MUWHAHAHAHAHAHAHA","color":"red","bold":true}]
+lootplusplus:rainbow.wither_storm_____-1_____{}_____1.0_____lppcondition testfor @e[name=WitherStorm,score_DEATH=50,score_DEATH_min=40] _if_true_ summon PrimedTnt ~ ~ ~
+lootplusplus:rainbow.wither_storm_____-1_____{}_____1.0_____lppcondition testfor @e[name=WitherStorm,score_DEATH=51,score_DEATH_min=51] _if_true_ kill @e[name=WitherStorm]
+
+lootplusplus:rainbow.burning_sword_____-1_____{}_____1.0_____enchant @p 20 2

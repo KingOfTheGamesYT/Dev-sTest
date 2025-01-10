@@ -1,0 +1,28 @@
+/jewels and resources
+diamond=12
+diamond_block=100
+emerald=8
+emerald_block=80
+gold_ingot=7
+gold_block=70
+iron_ingot=3
+iron_block=30
+gold_nugget=1
+dye:4=2
+lapis_block=20
+redstone=1
+redstone_block=10
+
+/lucky items
+golden_carrot=30
+golden_apple:0=50
+golden_apple:1=100
+nether_star=100
+beacon=100
+
+/unlucky items
+rotten_flesh=-5
+spider_eye=-10
+fermented_spider_eye=-20
+poisonous_potato=-10
+fish:3=-20

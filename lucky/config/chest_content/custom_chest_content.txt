@@ -1,0 +1,13 @@
+# Dungeon Treasure
+rainbowDungeonTreasure-diamond-1-4-10
+rainbowDungeonTreasure-golden_carrot-3-10-10
+rainbowDungeonTreasure-lucky:lucky_block_rainbow-1-2-5
+rainbowDungeonTreasure-lucky:lucky_block_rainbow-1-1-3-0-{Luck:80,display:{Name:"§fRainbow Very Lucky Block"}}
+rainbowDungeonTreasure-firework_charge-1-15-10-0-{HideFlags:63,display:{Name:"Coin"}}
+rainbowDungeonTreasure-cake-1-1-3
+rainbowDungeonTreasure-iron_pickaxe-1-1-5
+rainbowDungeonTreasure-iron_ingot-1-4-5
+rainbowDungeonTreasure-gold_ingot-1-8-5
+rainbowDungeonTreasure-emerald-1-4-10
+rainbowDungeonTreasure-cookie-10-20-30
+rainbowDungeonTreasure-sponge-1-1-3

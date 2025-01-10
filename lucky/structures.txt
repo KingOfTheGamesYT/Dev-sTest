@@ -1,0 +1,86 @@
+/ traps
+ID=anvil_trap,file=traps/anvil_trap.schematic,centerY=1,centerZ=2
+ID=lava_trap,file=traps/lava_trap.schematic,centerY=1
+ID=water_trap,file=traps/water_trap.schematic,centerY=1
+ID=pit_trap,file=traps/pit_trap.schematic,centerY=19
+
+/ other
+ID=bedrock_problem,file=other/bedrock_problem.schematic
+ID=lucky_choice_left,file=other/lucky_choice_left.luckystruct
+ID=lucky_choice_right,file=other/lucky_choice_right.luckystruct
+ID=wishing_well,file=other/wishing_well.schematic,centerY=2
+ID=bouncing_castle,file=other/bouncing_castle.schematic,centerY=1
+
+/ giant blocks
+ID=giant_block_break_stage_1,file=giant_blocks/break_stage_1.schematic,blockMode=overlay,centerZ=7
+ID=giant_block_break_stage_2,file=giant_blocks/break_stage_2.schematic,blockMode=overlay,centerZ=7
+ID=giant_block_break_stage_3,file=giant_blocks/break_stage_3.schematic,blockMode=overlay,centerZ=7
+ID=giant_block_break_stage_4,file=giant_blocks/break_stage_4.schematic,blockMode=overlay,centerZ=7
+ID=giant_block_break_stage_5,file=giant_blocks/break_stage_5.schematic,blockMode=overlay,centerZ=7
+ID=giant_lucky_block_good,file=giant_blocks/giant_lucky_block.schematic,centerZ=7,overlayStruct=giant_lucky_block_inner_good
+ID=giant_lucky_block_inner_good,file=giant_blocks/giant_lucky_block_inner_good.luckystruct,blockMode=overlay,centerZ=7
+ID=giant_lucky_block_bad,file=giant_blocks/giant_lucky_block.schematic,centerZ=7,overlayStruct=giant_lucky_block_inner_bad
+ID=giant_lucky_block_inner_bad,file=giant_blocks/giant_lucky_block_inner_bad.luckystruct,blockMode=overlay,centerZ=7
+
+/ natural gen
+ID=gen_good,file=gen/gen_good.schematic
+
+/rainbow dungeon
+
+ID=dungeon,file=rainbow lb structures/dungeon.schematic,centerY=20
+
+/added
+ID=pyramid,file=rainbow lb structures/lucky large temple.schematic
+ID=Water_Potion,file=rainbow lb structures/potion water.schematic,centerX=2
+ID=Lava_Potion,file=rainbow lb structures/potion lava.schematic,centerX=2
+ID=cobweb_trap,file=rainbow lb structures/cobweb trap.schematic
+ID=Dobsidian,file=rainbow lb structures/obsidian diamond.schematic
+ID=Eobsidian,file=rainbow lb structures/obsidian emerald.schematic
+ID=Sobsidian,file=rainbow lb structures/obsidian diamond.schematic
+ID=Pat,file=rainbow lb structures/popularmmos statue.schematic
+ID=Jen,file=rainbow lb structures/jen's statue.schematic
+ID=house,file=rainbow lb structures/villager house.schematic
+ID=garden,file=rainbow lb structures/village garden.schematic
+ID=blacksmith,file=rainbow lb structures/blacksmith.schematic
+ID=tnt_sphere,file=rainbow lb structures/tnt sphere.schematic
+ID=barrier_sphere,file=rainbow lb structures/barrier trap.schematic,centerY=1
+ID=unlucky_block,file=rainbow lb structures/unlucky block.schematic
+ID=very_lucky_block,file=rainbow lb structures/white temple.schematic
+ID=tnt_trap,file=rainbow lb structures/tnt_cage.schematic,centerY=1
+ID=ocean_monument,file=rainbow lb structures/ocean temple.schematic
+ID=lucky_choise_rainbow,file=rainbow lb structures/rainbow or not.schematic
+ID=jen_chest,file=rainbow lb structures/jen's chest.schematic
+ID=diamond_chest,file=rainbow lb structures/diamond chest.schematic
+ID=gold_chest,file=rainbow lb structures/golden_chest.schematic
+ID=troll_chest,file=rainbow lb structures/troll chest.schematic
+ID=door_trap,file=rainbow lb structures/iron door trap.schematic
+ID=trampoline,file=rainbow lb structures/trampoline.schematic,centerY=1
+ID=giant_pit_trap,file=rainbow lb structures/big hole.schematic,centerY=25
+ID=wither_statue,file=rainbow lb structures/wither statue.schematic
+ID=rainbow_beacon,file=rainbow lb structures/colorfull beacon.schematic,centerY=1
+ID=creeper_scare,file=rainbow lb structures/creeper statues.schematic,centerY=1
+ID=joey_pole,file=rainbow lb structures/joey's pole.schematic
+ID=house_trap,file=rainbow lb structures/trap house.schematic,centerY=3
+ID=Mitch,file=rainbow lb structures/mitch statue.schematic
+ID=Lachlan,file=rainbow lb structures/lachlan statue.schematic
+ID=Jerome,file=rainbow lb structures/bacca statue.schematic
+ID=Vik,file=rainbow lb structures/vikstar statue.schematic
+ID=Rob,file=rainbow lb structures/rob statue.schematic
+ID=Preston,file=rainbow lb structures/preston statue.schematic
+ID=lava_pool_trap,file=rainbow lb structures/lava trap.schematic
+ID=fire_trap,file=rainbow lb structures/fire trap.schematic,centerY=1
+ID=ore,file=rainbow lb structures/ore's.schematic
+ID=lava_cart,file=rainbow lb structures/lava minecart.schematic
+ID=rollercoaster,file=rainbow lb structures/rainbow rollercoaster.schematic
+ID=sword_in_stone,file=rainbow lb structures/sword in the stone.schematic
+/temples
+ID=earth_temple,file=rainbow lb structures/earth temple.schematic,centerY=-1
+ID=hell_temple,file=rainbow lb structures/hell temple.schematic,centerY=-1
+ID=heaven_temple,file=rainbow lb structures/heaven temple.schematic,centerY=-50
+
+/giant chest
+ID=closed_chest,file=rainbow lb structures/closed chest.schematic,centerX=9,centerZ=4
+ID=open_chest_iron,file=rainbow lb structures/open chest.schematic,centerY=4,centerZ=4,centerX=14
+ID=open_chest_gold,file=rainbow lb structures/open chest gold.schematic,centerY=4,centerZ=4,centerX=14
+ID=open_chest_diamond,file=rainbow lb structures/open chest diamond.schematic,centerY=4,centerZ=4,centerX=14
+ID=open_chest_tnt,file=rainbow lb structures/open chest tnt.schematic,centerY=4,centerZ=4,centerX=14

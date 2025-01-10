@@ -1,0 +1,12 @@
+{
+    "variants": {
+        "active=false,facing=north": { "model": "lootplusplus:rainbow.wheatley_core_close" },
+        "active=false,facing=south": { "model": "lootplusplus:rainbow.wheatley_core_close", "y": 180 },
+        "active=false,facing=west":  { "model": "lootplusplus:rainbow.wheatley_core_close", "y": 270 },
+        "active=false,facing=east":  { "model": "lootplusplus:rainbow.wheatley_core_close", "y": 90 },
+		"active=true,facing=north": { "model": "lootplusplus:rainbow.wheatley_core" },
+        "active=true,facing=south": { "model": "lootplusplus:rainbow.wheatley_core", "y": 180 },
+        "active=true,facing=west":  { "model": "lootplusplus:rainbow.wheatley_core", "y": 270 },
+        "active=true,facing=east":  { "model": "lootplusplus:rainbow.wheatley_core", "y": 90 }
+    }
+}

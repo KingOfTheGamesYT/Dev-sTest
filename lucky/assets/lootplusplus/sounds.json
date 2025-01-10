@@ -1,0 +1,92 @@
+{
+  "records.nyan_cat": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "records/nyan_cat",
+        "stream": true
+      }
+    ]
+  },
+    "records.kill_you": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "records/kill_you",
+        "stream": true
+      }
+    ]
+  },
+    "records.a_chest": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "records/a_chest",
+        "stream": true
+      }
+    ]
+  },
+    "records.herobrine_battle": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "records/herobrine_battle",
+        "stream": true
+      }
+    ]
+  },
+    "records.Hunger_Games": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "records/Hunger_Games",
+        "stream": true
+      }
+    ]
+  },
+    "records.I_Am_Believing": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "records/I_Am_Believing",
+        "stream": true
+      }
+    ]
+  },
+    "records.my_base": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "records/my_base",
+        "stream": true
+      }
+    ]
+  },
+    "records.Take_Back_the_Night": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "records/Take_Back_the_Night",
+        "stream": true
+      }
+    ]
+  },
+    "records.wither_battle": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "records/wither_battle",
+        "stream": true
+      }
+    ]
+  },
+    "records.Endstone": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "records/Endstone",
+        "stream": true
+      }
+    ]
+  }
+  }
