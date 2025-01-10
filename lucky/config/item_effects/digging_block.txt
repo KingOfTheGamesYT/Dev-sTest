@@ -1,6 +1,0 @@
-lootplusplus:rainbow.FuriousDestroyer_axe_____-1_____{}_____20_____6_____3_____1.0_____none
-lootplusplus:rainbow.FuriousDestroyer_pickaxe_____-1_____{}_____20_____6_____3_____1.0_____none
-lootplusplus:rainbow.FuriousDestroyer_shovel_____-1_____{}_____20_____6_____3_____1.0_____none
-lootplusplus:rainbow.SuperGirlyGamer_axe_____-1_____{}_____10_____6_____3_____1.0_____none
-lootplusplus:rainbow.SuperGirlyGamer_pickaxe_____-1_____{}_____10_____6_____3_____1.0_____none
-lootplusplus:rainbow.SuperGirlyGamer_shovel_____-1_____{}_____10_____6_____3_____1.0_____none

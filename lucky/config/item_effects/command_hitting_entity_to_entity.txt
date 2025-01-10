@@ -1,3 +1,0 @@
-lootplusplus:rainbow.sky_sword_____-1_____{}_____0.5_____/tp @p ~ ~7 ~
-lootplusplus:rainbow.tomb_sword_____-1_____{}_____0.5_____/fill ~1 ~3 ~1 ~-1 ~4 ~-1 sand
-lootplusplus:rainbow.tnt_sword_____-1_____{}_____1.0_____/summon PrimedTnt ~ ~1 ~ {Fuse:30}

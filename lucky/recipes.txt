@@ -1,1 +1,0 @@
-diamond,emerald,emerald,lucky:lucky_block,gold_ingot,redstone,gold_ingot,redstone,diamond

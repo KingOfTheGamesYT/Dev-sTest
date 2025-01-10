@@ -1,6 +1,0 @@
-rainbow.pink_pufferfish_____pink pufferfish_____false_____4_____1.0_____false_____true_____32_____10-500-4-1.0-normal
-rainbow.hot_pepper_____hot pepper_____false_____2_____1.0_____false_____true_____32_____5-500-1-1.0-normal_____9-500-0-1.0-normal
-rainbow.taco_____Taco_____false_____8_____1.0_____false_____true_____32_____23-2000-4-1.0-normal_____11-1000-0-1.0-normal
-rainbow.medkit_____Medkit_____false_____1_____1.0_____true_____true_____100_____6-10-5-1.0-normal
-rainbow.wet_noodles_____Wet Noodles_____false_____1_____1.0_____false_____true_____32_____5-2000-1-0.2-normal
-rainbow.berries_____berries_____false_____1_____1.0_____false_____true_____16_____20-2000-5-1.0-normal
