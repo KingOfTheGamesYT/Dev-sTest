@@ -1,3 +1,0 @@
->surface
-/ single block
-type=block,ID=lucky:lucky_block@chance=600
