@@ -1,0 +1,2 @@
+/craft by placing lucky block in X-pattern diamond blocks around
+dzd,zlz,dzd,d,diamond,l,lucky:lucky_block,z,lapis_lazuli
