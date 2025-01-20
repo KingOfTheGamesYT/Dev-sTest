@@ -1,42 +1,31 @@
-modLoader="javafml"
+modLoader="javafml" #mandatory
+loaderVersion="${loader_version_range}"
+license="${mod_license}"
 
-loaderVersion="[36,)"
-
-license="All rights reserved"
-
-[[mods]]
-itemIcon="devs_test:loot_extractor"
-
-configBackground="devs_test:textures/items/miners_dream.png"
-
-modId="devs_test"
-
-version="1.0.0"
-
-displayName="Dev's Test"
-
-displayURL="https://github.com/KingOfTheGamesYT/Dev-sTest"
-
-logoFile="logo.png"
-
-credits="All credit goes to DevMaster1015 aka RedRoseWarrior1"
-
-authors=["RedRoseWarrior1 aka DevMaster1015"]
-
-description='''Adds different ideas I had to play rround with'''
-
-# Base Forge
-[[dependencies.devs_test]]
-    modId="forge"
-    mandatory=true
-    versionRange="[36,)"
+[[mods]] #mandatory
+modId="devs_test" #mandatory
+version="${mod_version}" #mandatory
+displayName="${mod_name}" #mandatory
+logoFile="logo.png" #optional
+credits="RedRoseWarrior1" #optional
+authors="${mod_authors}" #optional
+description='''${mod_description}'''
+[[dependencies.devs_test]] #optional
+    # the modid of the dependency
+    modId="forge" #mandatory
+    # Does this dependency have to exist - if not, ordering below must be specified
+    mandatory=true #mandatory
+    # The version range of the dependency
+    versionRange="${forge_version_range}" #mandatory
+    # An ordering relationship for the dependency - BEFORE or AFTER required if the relationship is not mandatory
     ordering="NONE"
+    # Side this dependency is applied on - BOTH, CLIENT or SERVER
     side="BOTH"
-
-# Base Minecraft
+# Here's another dependency
 [[dependencies.devs_test]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.16.5,1.17]"
+# This version range declares a minimum of the current minecraft version up to but not including the next major version
+    versionRange="${minecraft_version_range}"
     ordering="NONE"
     side="BOTH"

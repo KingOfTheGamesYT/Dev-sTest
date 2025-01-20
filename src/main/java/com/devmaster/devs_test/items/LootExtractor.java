@@ -1,72 +1,73 @@
 package com.devmaster.devs_test.items;
 
-import com.devmaster.devs_test.misc.Devs_Test;
-import net.minecraft.entity.Entity;
-import net.minecraft.entity.LivingEntity;
-import net.minecraft.entity.item.ItemEntity;
-import net.minecraft.entity.player.PlayerEntity;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemStack;
-import net.minecraft.loot.LootParameterSets;
-import net.minecraft.util.*;
-import net.minecraft.util.math.AxisAlignedBB;
-import net.minecraft.util.math.EntityRayTraceResult;
-import net.minecraft.util.math.RayTraceResult;
-import net.minecraft.util.math.vector.Vector3d;
-import net.minecraft.world.World;
-import net.minecraft.world.server.ServerWorld;
-import net.minecraft.loot.LootContext;
-import net.minecraft.loot.LootParameters;
+import net.minecraft.core.BlockPos;
+import net.minecraft.core.Direction;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.server.level.ServerLevel;
+import net.minecraft.world.InteractionHand;
+import net.minecraft.world.InteractionResult;
+import net.minecraft.world.InteractionResultHolder;
+import net.minecraft.world.entity.Entity;
+import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.entity.item.ItemEntity;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.context.UseOnContext;
+import net.minecraft.world.level.Level;
+import net.minecraft.world.level.storage.loot.LootParams;
+import net.minecraft.world.level.storage.loot.parameters.LootContextParamSets;
+import net.minecraft.world.level.storage.loot.parameters.LootContextParams;
+import net.minecraft.world.phys.AABB;
+import net.minecraft.world.phys.EntityHitResult;
+import net.minecraft.world.phys.Vec3;
 
 import java.util.List;
 import java.util.Optional;
 
+
 public class LootExtractor extends Item {
 
     public LootExtractor() {
-        super(new Item.Properties().group(Devs_Test.ITEMS));
+        super(new Item.Properties());
     }
 
     @Override
-    public ActionResult<ItemStack> onItemRightClick(World world, PlayerEntity player, Hand hand) {
-        ItemStack itemStack = player.getHeldItem(hand);
+    public InteractionResult interactLivingEntity(ItemStack stack, Player player, LivingEntity target, InteractionHand hand) {
+        Level level = player.level();
 
-        // Perform entity ray tracing
-        EntityRayTraceResult entityRayTraceResult = rayTraceEntities(world, player, 5.0D); // Adjust range as needed
-        if (entityRayTraceResult != null && entityRayTraceResult.getEntity() instanceof LivingEntity) {
-            LivingEntity target = (LivingEntity) entityRayTraceResult.getEntity();
+        if (!level.isClientSide && target != null) {
+            // Generate loot from the target's loot table
+            dropLootFromEntity((ServerLevel) level, target, player);
 
-            if (!world.isRemote) {
-                // Generate loot from the target's loot table
-                dropLootFromEntity((ServerWorld) world, target, player);
-            }
-
+            // Swing the hand to show the action
             player.swing(hand, true);
-            return ActionResult.resultSuccess(itemStack);
+
+            return InteractionResult.SUCCESS;
         }
 
-        return ActionResult.resultFail(itemStack);
+        return InteractionResult.FAIL;
     }
 
-    private EntityRayTraceResult rayTraceEntities(World world, PlayerEntity player, double range) {
-        Vector3d start = player.getEyePosition(1.0F);
-        Vector3d look = player.getLookVec();
-        Vector3d end = start.add(look.scale(range));
+    private EntityHitResult rayTraceEntities(Level level, Player player, double range) {
+        Vec3 start = player.getEyePosition(1.0F);
+        Vec3 look = player.getLookAngle();
+        Vec3 end = start.add(look.scale(range));
 
         // Create a bounding box along the ray trace path
-        AxisAlignedBB boundingBox = player.getBoundingBox().expand(look.scale(range)).grow(1.0D);
+        AABB boundingBox = player.getBoundingBox().expandTowards(look.scale(range)).inflate(1.0D);
 
         // Check for entities in the bounding box
-        List<Entity> entities = world.getEntitiesInAABBexcluding(player, boundingBox, entity -> entity instanceof LivingEntity && entity.isAlive());
+        List<Entity> entities = level.getEntities(player, boundingBox, entity -> entity instanceof LivingEntity && entity.isAlive());
         Entity closestEntity = null;
         double closestDistance = range * range;
 
         for (Entity entity : entities) {
-            AxisAlignedBB entityBoundingBox = entity.getBoundingBox().grow(0.3D);
-            Optional<Vector3d> optionalHitVec = entityBoundingBox.rayTrace(start, end);
+            AABB entityBoundingBox = entity.getBoundingBox().inflate(0.3D);
+            Optional<Vec3> optionalHitVec = entityBoundingBox.clip(start, end);
 
             if (optionalHitVec.isPresent()) {
-                double distance = start.squareDistanceTo(optionalHitVec.get());
+                double distance = start.distanceToSqr(optionalHitVec.get());
                 if (distance < closestDistance) {
                     closestEntity = entity;
                     closestDistance = distance;
@@ -74,28 +75,29 @@ public class LootExtractor extends Item {
             }
         }
 
-        return closestEntity != null ? new EntityRayTraceResult(closestEntity) : null;
+        return closestEntity != null ? new EntityHitResult(closestEntity) : null;
     }
 
-    private void dropLootFromEntity(ServerWorld world, LivingEntity target, PlayerEntity player) {
-        // Get the LootTableResourceLocation for the target entity
-        ResourceLocation lootTableLocation = target.getLootTableResourceLocation();
+    private void dropLootFromEntity(ServerLevel level, LivingEntity target, Player player) {
+        // Get the loot table for the target entity
+        ResourceLocation lootTableLocation = target.getType().getDefaultLootTable();
 
         if (lootTableLocation != null) {
-            // Fetch the loot table using the LootTableManager
-            LootContext.Builder lootBuilder = new LootContext.Builder(world)
-                    .withParameter(LootParameters.THIS_ENTITY, target)
-                    .withParameter(LootParameters.ORIGIN, target.getPositionVec())
-                    .withParameter(LootParameters.DAMAGE_SOURCE, DamageSource.MAGIC)
-                    .withParameter(LootParameters.KILLER_ENTITY, player);
+            // Build the loot context with parameters
+            LootParams.Builder lootBuilder = new LootParams.Builder(level)
+                    .withParameter(LootContextParams.THIS_ENTITY, target)
+                    .withParameter(LootContextParams.ORIGIN, target.position())
+                    .withParameter(LootContextParams.DAMAGE_SOURCE, level.damageSources().playerAttack(player))
+                    .withOptionalParameter(LootContextParams.KILLER_ENTITY, player);
 
-            LootContext lootContext = lootBuilder.build(LootParameterSets.ENTITY);
-            List<ItemStack> loot = world.getServer().getLootTableManager().getLootTableFromLocation(lootTableLocation).generate(lootContext);
+            // Generate loot
+            List<ItemStack> loot = level.getServer().getLootData().getLootTable(lootTableLocation).getRandomItems(lootBuilder.create(LootContextParamSets.ENTITY));
 
             // Drop each item in the world at the target's position
             for (ItemStack stack : loot) {
-                world.addEntity(new ItemEntity(world, target.getPosX(), target.getPosY(), target.getPosZ(), stack));
+                level.addFreshEntity(new ItemEntity(level, target.getX(), target.getY(), target.getZ(), stack));
             }
-        }
+
+            }
     }
 }

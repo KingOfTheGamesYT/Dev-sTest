@@ -2,11 +2,12 @@ package com.devmaster.devs_test.misc;
 
 import com.devmaster.devs_test.util.RegistryHandler;
 
-import net.minecraft.block.Block;
-import net.minecraft.item.ItemGroup;
-import net.minecraft.item.ItemStack;
-import net.minecraft.tags.BlockTags;
-import net.minecraft.tags.ITag;
+
+import net.minecraft.core.registries.Registries;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.tags.TagKey;
+import net.minecraft.world.level.block.Block;
+
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
@@ -21,7 +22,7 @@ import org.apache.logging.log4j.Logger;
 public class Devs_Test {
     public static final Logger LOGGER = LogManager.getLogger("Dev's Test");
     public static final String MOD_ID = "devs_test";
-    public static final ITag.INamedTag<Block> MINERS_DREAM_MINEABLE = BlockTags.makeWrapperTag(Devs_Test.MOD_ID+":miners_dream_breakable");
+    public static final TagKey<Block> MINERS_DREAM_MINEABLE = TagKey.create(Registries.BLOCK, new ResourceLocation(Devs_Test.MOD_ID, "miners_dream_breakable"));
 
     public Devs_Test() {
        FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
@@ -36,13 +37,5 @@ public class Devs_Test {
     }
     private void doClientStuff(final FMLClientSetupEvent event) {
     }
-
-    public static final ItemGroup ITEMS = new ItemGroup("main") {
-
-        @Override
-        public ItemStack createIcon() {
-            return new ItemStack(RegistryHandler.MINERS_DREAM.get());
-        }
-    };
 }
 

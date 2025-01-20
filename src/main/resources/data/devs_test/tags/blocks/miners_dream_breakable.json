@@ -1,27 +1,20 @@
 {
-  "replace": false,
   "values": [
-    "#forge:stone",
-    "#forge:dirt",
+    "minecraft:gravel",
     "minecraft:grass_block",
-    "#minecraft:sand",
-    "minecraft:gravel",
-    "minecraft:snow",
-    "#forge:cobblestone",
-    "minecraft:sandstone",
-    "minecraft:water",
-    "#forge:sand",
     "#forge:sandstone",
-    "minecraft:gravel",
-    "minecraft:netherrack",
-    "minecraft:end_stone",
+    "minecraft:soul_sand",
+    "minecraft:soul_soil",
+    "#minecraft:overworld_carver_replaceables",
+    "#minecraft:nether_carver_replaceables",
+    "#minecraft:dirt",
+    "#minecraft:sand",
     "minecraft:water",
-    "minecraft:lava",
-    "minecraft:basalt"
+    "minecraft:lava"
   ],
   "optional": [
     "quark:smooth_basalt",
     "quark:deepslate",
     "fandomcraft:rock"
-    ]
+  ]
 }
