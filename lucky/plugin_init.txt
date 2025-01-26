@@ -1,3 +1,0 @@
-block_id=lucky_block_destiny
-sword_id=destiny_lucky_sword
-potion_id=destiny_lucky_potion
