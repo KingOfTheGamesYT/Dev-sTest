@@ -1,0 +1,14 @@
+
+
+
+
+
+
+
+
+
+
+
+-2 New Drops
+-Changed Description Of MCMETA File (this makes the description if you go into the mods tab, this not a big change)
+-French Translate Added (this changes the lucky block name into french)

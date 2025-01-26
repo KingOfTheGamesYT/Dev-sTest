@@ -1,0 +1,5 @@
+- Changed the stronghold loot to be weaponsmith loot
+- Change the color for the evil potion text to Red instead of blue
+- Increase the duration of of strength to 700 instead of 600
+- Brought back the Deutsch, European and Mexican Spanish, European French, Hungarian and Korean language translations
+- Ported to 1.16.5

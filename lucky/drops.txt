@@ -1,0 +1,88 @@
+/ Groups
+/2 Luck
+group(ID=golden_sword;ID=golden_shovel;ID=golden_pickaxe;ID=golden_axe;ID=golden_hoe)@luck=2
+group(ID=carrot;ID=apple;ID=poisonous_potato;ID=baked_potato;ID=potato)@luck=0
+type=block,ID=chest,tileEntity=(Items=#chestLootTable("chests/village/village_weaponsmith"))@luck=1
+group(ID=bookshelf,amount=#rand(6,12);ID=book,amount=#rand(8,16))@luck=0
+
+/ Items
+group:1:(group(ID=carrot,amount=#rand(8,16);ID=golden_carrot,amount=#rand(4,8));group(ID=potato,amount=#rand(8,16);ID=baked_potato,amount=#rand(4,8);ID=poisonous_potato,amount=#rand(2,4));group(ID=pumpkin_pie,amount=#rand(6,12)))@luck=1
+ID=cake@luck=0
+ID=rotten_flesh@luck=-1
+ID=rotten_flesh,amount=#rand(3,5)@luck=-1
+ID=rabbit_stew,amount=#rand(5,7)@luck=1
+
+/ Named Items
+/ 2 Luck
+ID=diamond_sword,NBTTag=(Enchantments=#luckySwordEnchantments,display=(Name=#jsonStr(text="Hero's Sword",color=blue,bold=true)))@luck=2
+ID=wooden_axe,amount=#rand(34,64)@luck=0
+ID=bow,NBTTag=(Enchantments=#luckyBowEnchantments,display=(Name=#jsonStr(text="Hero's Bow",color=blue,bold=true)))@luck=2
+group:#rand(1,2):(ID=diamond_helmet,NBTTag=(Enchantments=#luckyHelmetEnchantments,display=(Name=#jsonStr(text="Hero's Helmet",color=blue,bold=true));ID=diamond_chestplate,NBTTag=(Enchantments=#luckyChestplateEnchantments,display=(Name=#jsonStr(text="Hero's Chestplate",color=blue,bold=true));ID=diamond_leggings,NBTTag=(Enchantments=#luckyLeggingsEnchantments,display=(Name=#jsonStr(text="Hero's Leggings",color=blue,bold=true));ID=diamond_boots,NBTTag=(Enchantments=#luckyBootsEnchantments,display=(Name=#jsonStr(text="Hero's Boots",color=blue,bold=true)))@luck=2
+ID=poppy,NBTTag=(display=(Name=#jsonStr(text="Internet Friends",color=blue,bold=true)))@luck=2
+ID=poppy,NBTTag=(display=(Name=#jsonStr(text="For Helping, Kristen",color=blue,bold=true)))@luck=2
+
+/ Unnamed Items
+/ 1 Luck
+type=block,ID=chest,tileEntity=(Items=#chestLootTable("chests/simple_dungeon"))@luck=1
+group(type=fill,ID=air,size=(1,8,1);type=entity,ID=falling_block,posY=#bPosY+7,NBTTag=(BlockState=(Name=iron_block));type=particle,ID=large_smoke,size=(1,2,1),particleAmount=500;type=sound,ID=block.fire.extinguish)@luck=0
+ID=lucky:destiny_lucky_sword@luck=2
+ID=lucky:destiny_lucky_potion@luck=2
+
+/ 1 Luck
+ID=diamond_shovel@luck=1
+type=entity,ID=experience_bottle,NBTTag=(Motion=#randLaunchMotion),amount=#rand(16,32)@luck=2
+ID=wooden_sword@luck=0
+group(ID=bow;ID=arrow,amount=#rand(16,32))@luck=1
+group:#rand(2,3):(ID=iron_helmet;ID=iron_chestplate;ID=iron_leggings;ID=iron_boots;ID=iron_horse_armor)@luck=1
+
+/ -1 + -2 Luck
+ID=iron_shovel@luck=-1
+ID=wooden_shovel@luck=-2
+
+/ Blocks
+/2 Luck
+ID=diamond_block,amount=2@luck=2
+ID=obsidian,amount=14@luck=1
+ID=lucky:lucky_block_destiny@luck=1
+ID=lucky:lucky_block_destiny,amount=3@luck=2
+ID=barrier,amount=5@luck=2
+ID=glass,amount=10@luck=0
+ID=grass,amount=2@luck=0
+ID=dirt,amount=5@luck=-1
+ID=oak_planks,amount=32@luck=0
+ID=oak_planks,amount=64@luck=0
+
+/ Mobs
+/ -2 Luck 
+group(type=difficulty,ID=hard;type=entity,ID=giant)@luck=0
+group(type=difficulty,ID=hard;type=entity,ID=creeper;type=entity,ID=lightning_bolt)@luck=-2
+group(type=difficulty,ID=hard;type=entity,ID=ghast)@chance=0.2@luck=-2
+group(type=difficulty,ID=hard;type=entity,ID=elder_guardian)@luck=0
+group(type=difficulty,ID=hard;type=entity,ID=chicken)@luck=0
+group(type=difficulty,ID=hard;type=entity,ID=cow)@luck=0
+group(type=difficulty,ID=hard;type=entity,ID=pig)@luck=0
+type=entity,ID=pig,amount=3,posOffset=#circleOffset(4),NBTTag=(CustomName=#jsonStr(text="$5$lFreed Pig"))@luck=0
+type=entity,ID=cow,amount=3,posOffset=#circleOffset(4),NBTTag=(CustomName=#jsonStr(text="$5$lEmergency Rations"))@luck=0
+type=entity,ID=llama,amount=8,posOffset=#circleOffset(4),NBTTag=(CustomName=#jsonStr(text=#randList("$5$lLlama","$5$lLlama","$5$lLlama","$5$lLama","$5$lLlama","$5$lLlama","$5$lFortnite Llama?","$5$lLlama")),Variant=#rand(0,3),CustomNameVisible=true)@luck=0
+
+/ Animals
+group(type=entity,ID=wolf,amount=#rand(5,10),posOffset=#circleOffset(3),NBTTag=(CollarColor=#rand(0,15),Owner=#pUUIDArray,Sitting=true);type=particle,ID="heart",size=(2,0,2),particleAmount=20)@luck=1
+type=entity,ID=sheep,NBTTag=(CustomName=#jsonStr(text="$cM$6r. $eR$aa$2i$bn$3b$5o$dw"),CustomNameVisible=true,Color=#rand(0,15)),posOffset=#circleOffset(4),amount=16@luck=1
+group:1:(type=entity,ID=pig,NBTTag=(CustomName=#jsonStr(text="Lucky Pig",color=yellow,bold=true),CustomNameVisible=true);type=entity,ID=cow,NBTTag=(CustomName=#jsonStr(text="Lucky Cow",color=yellow,bold=true),CustomNameVisible=true);type=entity,ID=chicken,NBTTag=(CustomName=#jsonStr(text="Lucky Chicken",color=yellow,bold=true),CustomNameVisible=true);type=entity,ID=sheep,NBTTag=(CustomName=#jsonStr(text="Lucky Sheep",color=yellow,bold=true),CustomNameVisible=true);type=entity,ID=rabbit,NBTTag=(CustomName=#jsonStr(text="Lucky Rabbit",color=yellow,bold=true),CustomNameVisible=true);type=entity,ID=squid,NBTTag=(CustomName=#jsonStr(text="Unlucky Squid",color=yellow,bold=true),CustomNameVisible=true))@luck=0
+type=entity,ID=villager,NBTTag=(VillagerData=(level=3,profession=weaponsmith,type=jungle),Offers=(Recipes=[(buy=(id=diamond,Count=#rand(20,25)),sell=(id=diamond_sword,Count=1,tag=(Enchantments=#luckySwordEnchantments,display=(Name=#jsonStr(text="Hero's Sword",color=blue,bold=true)))),maxUses=1),(buy=(id=diamond,Count=#rand(20,25)),sell=(id=bow,Count=1,tag=(Enchantments=#luckyBowEnchantments,display=(Name=#jsonStr(text="Hero's Bow",color=blue,bold=true)))),maxUses=1),(buy=(id=diamond,Count=#rand(10,15)),sell=(id=fishing_rod,Count=1,tag=(Enchantments=#luckyFishingRodEnchantments,display=(Name=#jsonStr(text="Hero's Fishing Rod",color=blue,bold=true)))),maxUses=1),(buy=(id=diamond,Count=#rand(10,15)),sell=(id=potion,Count=1,tag=(Potion="fire_resistance",CustomPotionEffects=#luckyPotionEffects,display=(Name=#jsonStr(text="Hero's Potion",color=blue,bold=true)))),maxUses=1),(buy=(id=diamond,Count=#rand(7,12)),sell=(id=splash_potion,Count=1,tag=(Potion="harming",CustomPotionEffects=#unluckyPotionEffects,display=(Name=#jsonStr(text="Evil Potion",color=red,bold=true)))),maxUses=1)]),CustomName=#jsonStr(text="Hero Villager",color=blue,bold=true),CustomNameVisible=true)@luck=1
+
+/ Named Mobs with Armours 
+group(type=difficulty,ID=hard;type=entity,ID=zombie,NBTTag=(HandItems=[(id=diamond_sword,Count=1,tag=(Enchantments=#luckySwordEnchantments))],ArmorItems=[(id=diamond_boots,Count=1,tag=(Enchantments=#luckyBootsEnchantments)),(id=diamond_leggings,Count=1,tag=(Enchantments=#luckyLeggingsEnchantments)),(id=diamond_chestplate,Count=1,tag=(Enchantments=#luckyChestplateEnchantments)),(id=diamond_helmet,Count=1,tag=(Enchantments=#luckyHelmetEnchantments))],HandDropChances=[0.5f,0f],ArmorDropChances=[0.3f,0.3f,0.3f,0.3f],CustomName=#jsonStr(text="Mini Killer",color=blue,bold=true),CustomNameVisible=false))@luck=-2
+group(type=difficulty,ID=hard;type=entity,ID=bat,NBTTag=(Silent=true,ActiveEffects=[(Id=14,Duration=100000,Amplifier=1,ShowParticles=false)],Passengers=[(id=skeleton_horse,Tame=true,Type=4,Passengers=[(id=skeleton,HandItems=[(id=bow,Count=1,tag=(Enchantments=#luckyBowEnchantments))],ArmorItems=[(id=chainmail_boots,Count=1,tag=(Enchantments=#luckyBootsEnchantments)),(id=chainmail_leggings,Count=1,tag=(Enchantments=#luckyLeggingsEnchantments)),(id=chainmail_chestplate,Count=1,tag=(Enchantments=#luckyChestplateEnchantments)),(id=chainmail_helmet,Count=1,tag=(Enchantments=#luckyHelmetEnchantments))],HandDropChances=[0.5f,0f],ArmorDropChances=[0.3f,0.3f,0.3f,0.3f],CustomName=#jsonStr(text="The Haunting Horseman",color=gray,bold=true),CustomNameVisible=true)])]))@luck=-2
+/ Towers
+/ -2 Luck
+
+/ Stacked Mobs
+type=entity,ID=pig,NBTTag=(Passengers=[(id=pig,Passengers=[(id=pig,Passengers=[(id=pig,Passengers=[(id=pig,Passengers=[(id=pig,Passengers=[(id=pig,Passengers=[(id=pig,Passengers=[(id=villager)])])])])])])])])@luck=0
+/ TNT Releated
+group(type=fill,ID=air,size=(1,51,1);type=entity,ID=falling_block,NBTTag=(BlockState=(Name=redstone_block)),posY=#bPosY+5;group(posY=#bPosY+10;posY=#bPosY+15;posY=#bPosY+20;posY=#bPosY+25;posY=#bPosY+30;posY=#bPosY+35;posY=#bPosY+40;posY=#bPosY+45;posY=#bPosY+50),type=entity,ID=falling_block,NBTTag=(BlockState=(Name=tnt)))@luck=-1
+type=entity,ID=tnt,NBTTag=(Fuse=50b,Motion=#randLaunchMotion),amount=15@luck=-2
+
+/ Potions
+ID=splash_potion,NBTTag=(Potion="harming",CustomPotionEffects=#unluckyPotionEffects,display=(Name=#jsonStr(text="Throw Me >:)",color=red,bold=true)))@luck=1
+ID=potion,NBTTag=(Potion="harming",CustomPotionEffects=#unluckyPotionEffects,display=(Name=#jsonStr(text="Drink Me >:)",color=red,bold=true)))@luck=-1

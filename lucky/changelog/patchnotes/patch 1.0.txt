@@ -1,0 +1,4 @@
+patch note 1.0
+
+-release of beta
+-fixing a few bugs

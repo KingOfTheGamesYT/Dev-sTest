@@ -1,0 +1,18 @@
+New:
+
+-Weapons Succesfully Added
+-Bow Taken Out
+-5 New Drops Includeing The New Weapon Drops
+
+Changelog:
+Bow May Return In Patch 1.7, I Will talk to TheSmartness (Texture Artist) About This
+
+Bugs:
+
+We Are Aware Of The Name Issue With The Weapons, This is only patched in the US Language, Hopefully In Full Release This Will Be Patched With Other Languages
+Wooden Plank Airdrops, 1.7 Will Patch This
+
+-THIS IS NOT A RELEASE
+
+
+

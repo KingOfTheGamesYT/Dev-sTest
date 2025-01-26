@@ -1,0 +1,8 @@
+-patch note 1.3 - 1.12 Forge
+
+-7 New Drops (i think)
+-Maybe A -50 And 50+ Lucky Block Soon
+-Removed Wood Tools Drop For Being Broke (this might have never happened to you because it broke, this will also return once we figure out whats wrong with it)
+-Fixed The "hrow Me >:)" Bug
+
+-Thank You For Reading The Patch Notes, Have A Good Day!
