@@ -1,0 +1,31 @@
+/ ------ Good ------
+
+/ Health + Regeneration + Hearts
+group(type=effect,ID=6,range=4,amplifier=3;type=effect,ID=10,range=4,amplifier=1,duration=300;type=particle,ID=splashpotion,damage=8197;type=particle,ID=heart,size=(1.5,0.5,1.5),particleAmount=300)@luck=2
+
+/ Strenth + Resistance + Armor
+group(type=effect,ID=5,range=4,duration=600;type=effect,ID=11,range=4,amplifier=1,duration=600;type=particle,ID=splashpotion,damage=8265;group:1:(ID=iron_boots,NBTTag=(display=(Name="$7Polished Boots"),ench=#luckyBootsEnchantments);ID=iron_leggings,NBTTag=(display=(Name="$7Polished Leggings"),ench=#luckyLeggingsEnchantments);ID=iron_chestplate,NBTTag=(display=(Name="$7Polished Chestplate"),ench=#luckyChestplateEnchantments);ID=iron_helmet,NBTTag=(display=(Name="$7Polished Helmet"),ench=#luckyHelmetEnchantments)))@luck=2
+
+/ Satuaration + Food
+group(type=effect,ID=23,range=4,amplifier=20,duration=1;type=block,ID=cake;type=particle,ID=splashpotion,damage=8261;type=item,ID=#randList(cake,pumpkin_pie,cooked_porkchop,cooked_porkchop,cooked_porkchop,cooked_beef,cooked_beef,cooked_beef),posOffset=#circleOffset(0.0,2.0),amount=30)@luck=2
+
+/ Enchanting Table
+group(type=entity,ID=ThrownExpBottle,NBTTag=(Motion=#motionFromDirection(#rand(0,360),-70,0.4)),amount=#rand(20,30);type=item,ID=dye,damage=4,posOffset=#circleOffset(0.0,2.0),amount=#rand(20,40);type=block,ID=enchanting_table)@luck=2
+
+/ Enchanting Books + Repairing
+group(type=block,ID=anvil;type=item,ID=experience_bottle,posOffset=#circleOffset(0.0,2.0),amount=#rand(20,40);ID=enchanted_book,NBTTag=(StoredEnchantments=#randEnchantment),posOffset=#circleOffset(0.0,2.0),amount=#rand(10,12);type=particle,ID=splashpotion,damage=8195)@luck=2
+
+/ Water breathing + Fish
+group(type=effect,ID=13,range=4,duration=600;type=particle,ID=splashpotion,damage=8194;type=particle,ID=splash,posOffset=#circleOffset(0.0,2.0),amount=30;ID=fishing_rod;type=item,ID=fish,damage=#rand(0,3),posOffset=#circleOffset(0.0,2.0),amount=30)@luck=1
+
+/ Health Boost + Absorption + Gold Stuff
+group(type=effect,ID=21,range=4,amplifier=1,duration=600;type=effect,ID=22,amplifier=4,range=4,duration=600;type=particle,ID=splashpotion,damage=8227;type=item,ID=golden_apple,damage=#rand(0,1),posOffset=#circleOffset(0.0,2.0),amount=6;type=item,ID=#randList(gold_ingot,gold_ingot,gold_ingot,gold_block),posOffset=#circleOffset(0.0,2.0),amount=#rand(8,16))@luck=2@chance=0.7
+
+
+/ ---- Neutral ----
+group(type=effect,ID=#randList(1,3,5,8,10,11,12,13,14,16,21,22,23,26),range=4,amplifier=1,duration=600;type=particle,ID=splashpotion,damage=#randPotionParticle)@chance=2@luck=1
+group(type=effect,ID=#rand(1,27),range=4,amplifier=1,duration=600;type=particle,ID=splashpotion,damage=#randPotionParticle)@chance=4@luck=0
+group(type=effect,ID=#randList(2,4,9,15,17,18,19,20,25,27),range=4,amplifier=1,duration=600;type=particle,ID=splashpotion,damage=#randPotionParticle)@chance=2@luck=-1
+/ ------ Bad ------
+
+type=entity,ID=lightning_bolt,amount=#rand(5,10),posOffset=#circleOffset(3)@chance=0.8@luck=-1

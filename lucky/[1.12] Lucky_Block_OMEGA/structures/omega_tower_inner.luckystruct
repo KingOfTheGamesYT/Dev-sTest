@@ -1,0 +1,7 @@
+>properties
+length=1
+height=34
+width=1
+
+>blocks
+0,33,0,lucky:lucky_block_omega,0,(Drops=["group(type=difficulty,id=hard;type=entity,id=zombie,NBTTag=(ArmorItems=[(id=diamond_boots,Count=1,Damage=0,tag=(ench=#luckyBootsEnchantments,display=(Name=\"$eBob's Diamond Boots$r\"))),(id=diamond_leggings,Count=1,Damage=0,tag=(ench=#luckyLeggingsEnchantments,display=(Name=\"$eBob's Diamond Leggings$r\"))),(id=diamond_chestplate,Count=1,Damage=0,tag=(ench=#luckyChestplateEnchantments,display=(Name=\"$eBob's Diamond Chestplate$r\"))),(id=lucky:lucky_block_omega,Count=1,Damage=0,tag=(Drops=[\"group(ID=iron_ingot,amount='#'rand(16,20);ID=gold_ingot,amount='#'rand(16,20);ID=diamond,amount='#'rand(16,20);ID=emerald,amount='#'rand(16,20);ID=dye,damage=4,amount='#'rand(16,20);type=entity,ID=fireworks_rocket,NBTTag=(LifeTime=20,FireworksItem=(id=fireworks,Count=1,tag='#'randFireworksRocket)),amount=20,posOffset='#'circleOffset(0,2))\"],display=(Name=\"$b$lOmega Tower Loot$r\",Lore=[\"You have slain the Tower Bob.\",\"Enjoy the spoils of war!\"])))],HandItems=[(id=diamond_sword,Count=1,Damage=0,tag=(ench=#luckySwordEnchantments,display=(Name=\"$eBob's Diamond Sword$r\"))),()],ArmorDropChances=[#randList(0,2)f,#randList(0,2)f,#randList(0,2)f,2.0f],HandDropChances=[#randList(0,2)f,0f],ZombieType=0,IsVillager=0,Health=50,Attributes=[(Name=\"generic.maxHealth\",Base=50)],CustomName=\"$b$lTower Bob$r\",CustomNameVisible=true))"])

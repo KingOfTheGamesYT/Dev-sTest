@@ -1,0 +1,4 @@
+id=lucky_block_omega
+sword_id=omega_lucky_sword
+bow_id=omega_lucky_bow
+potion_id=omega_lucky_potion

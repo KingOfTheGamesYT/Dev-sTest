@@ -3,12 +3,15 @@ package com.devmaster.devs_test.misc;
 import com.devmaster.devs_test.util.RegistryHandler;
 
 import net.minecraft.block.Block;
+import net.minecraft.client.Minecraft;
+import net.minecraft.client.renderer.entity.SpriteRenderer;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.tags.BlockTags;
 import net.minecraft.tags.ITag;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
+import net.minecraftforge.fml.client.registry.RenderingRegistry;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
@@ -24,18 +27,22 @@ public class Devs_Test {
     public static final ITag.INamedTag<Block> MINERS_DREAM_MINEABLE = BlockTags.makeWrapperTag(Devs_Test.MOD_ID+":miners_dream_breakable");
 
     public Devs_Test() {
-       FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
+        FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::doClientStuff);
         final IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
         modEventBus.addListener(this::setup);
         RegistryHandler.init();
         MinecraftForge.EVENT_BUS.register(this);
+        MinecraftForge.EVENT_BUS.register(new SpawnEggThrowHandler()); // ✅ Registers SpawnEggThrowHandler properly
     }
 
     private void setup(final FMLCommonSetupEvent event) {
     }
     private void doClientStuff(final FMLClientSetupEvent event) {
+        RenderingRegistry.registerEntityRenderingHandler(RegistryHandler.THROWABLE_SPAWN_EGG.get(),
+                manager -> new SpriteRenderer<>(manager, Minecraft.getInstance().getItemRenderer()));
     }
+
 
     public static final ItemGroup ITEMS = new ItemGroup("main") {
 

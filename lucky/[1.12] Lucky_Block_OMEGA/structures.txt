@@ -1,0 +1,36 @@
+/ lucky
+ID=omega_fort,file=omega_fort.schematic,overlayStruct=omega_fort_inner,centerY=1
+ID=omega_fort_inner,file=omega_fort_inner.luckystruct,blockMode=overlay
+ID=omega_temple,file=omega_temple.schematic,overlayStruct=omega_temple_inner,centerY=1
+ID=omega_temple_inner,file=omega_temple_inner.luckystruct,blockMode=overlay
+
+/ traps
+ID=trap,file=trap.schematic,centerY=1,centerZ=2
+
+/ other
+ID=omega_choice_left,file=omega_choice_left.luckystruct
+ID=omega_choice_right,file=omega_choice_right.luckystruct
+ID=omega_well,file=well2.schematic,centerY=2
+ID=dark_well,file=well3.schematic,centerY=2
+ID=big_well,file=well4.schematic,centerY=2
+
+/ giant blocks
+ID=omega_block_break_stage_1,file=omega_stage_1.schematic,blockMode=overlay,centerZ=7
+ID=omega_block_break_stage_2,file=omega_stage_2.schematic,blockMode=overlay,centerZ=7
+ID=omega_block_break_stage_3,file=omega_stage_3.schematic,blockMode=overlay,centerZ=7
+ID=omega_block_break_stage_4,file=omega_stage_4.schematic,blockMode=overlay,centerZ=7
+ID=omega_block_break_stage_5,file=omega_stage_5.schematic,blockMode=overlay,centerZ=7
+ID=giant_omega_block_good,file=giant_omega_block.schematic,centerZ=7,overlayStruct=giant_omega_block_inner_good
+ID=giant_omega_block_inner_good,file=giant_omega_block_inner_good.luckystruct,blockMode=overlay,centerZ=7
+ID=giant_omega_block_bad,file=giant_omega_block.schematic,centerZ=7,overlayStruct=giant_omega_block_inner_bad
+ID=giant_omega_block_inner_bad,file=giant_omega_block_inner_bad.luckystruct,blockMode=overlay,centerZ=7
+
+/ pedestals
+ID=small_tower,file=small_tower.schematic
+ID=small_tower_2,file=small_tower_2.schematic
+ID=small_tower_omega,file=small_tower_omega.schematic,centerY=1
+
+/ dungeons
+ID=omega_tower,file=omega_tower.schematic,centerY=1,overlayStruct=omega_tower_inner
+ID=omega_tower_inner,file=omega_tower_inner.luckystruct,blockMode=overlay,centerY=1
+

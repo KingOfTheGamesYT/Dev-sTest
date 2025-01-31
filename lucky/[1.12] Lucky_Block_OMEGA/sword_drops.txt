@@ -1,0 +1,29 @@
+/ ------ Powerful Effects ------
+
+/ Health + Regeneration
+group(type=effect,ID=6,amplifier=#rand(2,6),duration=0;type=effect,ID=10,amplifier=#rand(1,2),duration=#rand(5,10);type=particle,ID=heart,size=(0.5,0.5,0.5),particleAmount=50,pos=#pExactPos)@chance=0.5@luck=2
+/ Wither
+type=command,ID="effect @a[name=!#pName,r=3] wither 100 3"@chance=0.5@luck=2
+/ ------ Neutral Effects ------
+
+/ Web
+type=entity,ID=LuckyProjectile,pos=#pExactPos,posOffsetY=1.5,NBTTag=(Motion=#motionFromDirection(#pYaw,#pPitch,1.5),item=(id=web,Count=1),impact=["type=command,ID=\"fill ~ ~ ~ ~ ~1 ~ web 0 keep\""])@luck=1@chance=0.5
+
+
+/ Knockback
+group(type=effect,ID=special_knockback,range=6,excludePlayer=true,power=1.8,pos=#pPos,delay=0.1;type=particle,ID=explode,size=(1.0,0.3,1.0),particleAmount=500,pos=#pExactPos)@luck=1
+
+/ ------ Destructive Effects ------
+
+/ Lightning
+type=entity,ID=LightningBolt@luck=-2
+
+/ Explosion
+type=explosion,damage=2@luck=-2
+
+/ ------ Nothing ------
+type=nothing@luck=-2@chance=160
+type=nothing@luck=-1@chance=120
+type=nothing@luck=0@chance=100
+type=nothing@luck=1@chance=80
+type=nothing@luck=2@chance=50

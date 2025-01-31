@@ -1,0 +1,6 @@
+{
+    "parent": "lucky:item/omega_lucky_bow",
+    "textures": {
+        "layer0": "lucky:items/alpha_bow_pulling_2"
+    }
+}
