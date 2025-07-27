@@ -1,0 +1,21 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "devs_test:items/test/cats_eye_cluster"
+  },
+
+  "display": {
+    "thirdperson_righthand": {
+      "translation": [0, 3.25, 0],
+      "scale": [0.5, 0.5, 0.5]
+    },
+    "firstperson_righthand": {
+      "translation": [0, 2, 0.75],
+      "scale": [0.5, 0.5, 0.5]
+    },
+    "firstperson_lefthand": {
+      "translation": [0, 2, 0.75],
+      "scale": [0.5, 0.5, 0.5]
+    }
+  }
+}

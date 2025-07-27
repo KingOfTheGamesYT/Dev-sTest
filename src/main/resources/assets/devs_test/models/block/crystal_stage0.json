@@ -1,0 +1,6 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "devs_test:items/test/cats_eye_cluster_stage_0"
+  }
+}

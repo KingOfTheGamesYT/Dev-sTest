@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "devs_test:items/test/budding_cats_eye"
+  }
+}
