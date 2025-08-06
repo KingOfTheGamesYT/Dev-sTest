@@ -1,3 +1,4 @@
+// ---- BEGIN: PLUGIN SETUP ----
 buildscript {
     repositories {
         maven { url = 'https://files.minecraftforge.net/maven' }
@@ -8,38 +9,34 @@ buildscript {
         classpath group: 'net.minecraftforge.gradle', name: 'ForgeGradle', version: '3.+', changing: true
     }
 }
+
 apply plugin: 'net.minecraftforge.gradle'
-// Only edit below this line, the above code adds and enables the necessary things for Forge to be setup.
 apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
+// ---- END: PLUGIN SETUP ----
 
+
+// ---- MOD METADATA ----
 version = '1.0.0'
-group = 'com.devmaster.devs_test' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
-archivesBaseName = 'Devs_Test'
+group = 'com.devmaster.devs_test'
+archivesBaseName = 'devs_test'
 
-sourceCompatibility = targetCompatibility = compileJava.sourceCompatibility = compileJava.targetCompatibility = '1.8' // Need this here so eclipse task generates correctly.
+// ---- JAVA SETUP ----
+sourceCompatibility = targetCompatibility = '1.8'
 
 println('Java: ' + System.getProperty('java.version') + ' JVM: ' + System.getProperty('java.vm.version') + '(' + System.getProperty('java.vendor') + ') Arch: ' + System.getProperty('os.arch'))
+
+// ---- MINECRAFT CONFIG ----
 minecraft {
-
-
     mappings channel: 'snapshot', version: '20210309-1.16.5'
-    // makeObfSourceJar = false // an Srg named sources jar is made by default. uncomment this to disable.
 
-
-    //accessTransformer = file('src/main/resources/META-INF/accesstransformer.cfg')
     runs {
         client {
             workingDirectory project.file('run')
-
-            // Recommended logging data for a userdev environment
             property 'forge.logging.markers', 'SCAN,REGISTRIES,REGISTRYDUMP'
-
-            // Recommended logging level for the console
             property 'forge.logging.console.level', 'debug'
-
             mods {
-                devs_test{
+                devs_test {
                     source sourceSets.main
                 }
             }
@@ -47,15 +44,10 @@ minecraft {
 
         server {
             workingDirectory project.file('run')
-
-            // Recommended logging data for a userdev environment
             property 'forge.logging.markers', 'SCAN,REGISTRIES,REGISTRYDUMP'
-
-            // Recommended logging level for the console
             property 'forge.logging.console.level', 'debug'
-
             mods {
-                devs_test{
+                devs_test {
                     source sourceSets.main
                 }
             }
@@ -63,12 +55,11 @@ minecraft {
 
         data {
             workingDirectory project.file('run')
-
             property 'forge.logging.markers', 'SCAN,REGISTRIES,REGISTRYDUMP'
             property 'forge.logging.console.level', 'debug'
-            args '--mod', 'dangerzone', '--all', '--output', file('src/generated/resources/')
+            args '--mod', 'devs_test', '--all', '--output', file('src/generated/resources/')
             mods {
-                devs_test{
+                devs_test {
                     source sourceSets.main
                 }
             }
@@ -76,36 +67,38 @@ minecraft {
     }
 }
 
+// ---- DEPENDENCIES ----
 repositories {
     mavenCentral()
-    maven { url 'https://www.cursemaven.com'}
-
+    maven { url = 'https://www.cursemaven.com' } // For CurseForge mods
 }
 
 dependencies {
     minecraft 'net.minecraftforge:forge:1.16.5-36.2.39'
 
-
-//project name, project id, file id
+    //project name, project id, file id
     implementation fg.deobf("curse.maven:jei-238222:3189632")
 }
 
+// ---- JAR MANIFEST ----
 jar {
     manifest {
         attributes([
-            "Specification-Title": "devs_test",
-            "Specification-Vendor": "devstestsareus",
-            "Specification-Version": "1", // We are version 1 of ourselves
-            "Implementation-Title": project.name,
-            "Implementation-Version": "${version}",
-            "Implementation-Vendor" :"devstestsareus",
-            "Implementation-Timestamp": new Date().format("yyyy-MM-dd'T'HH:mm:ssZ")
+                "Specification-Title": "devs_test",
+                "Specification-Vendor": "devstestsareus",
+                "Specification-Version": "1", //We are version 1 of ourselves
+                "Implementation-Title": project.name,
+                "Implementation-Version": version,
+                "Implementation-Vendor": "devstestsareus",
+                "Implementation-Timestamp": new Date().format("yyyy-MM-dd'T'HH:mm:ssZ")
         ])
     }
 }
 
-jar.finalizedBy('reobfJar') 
+// ---- REMAP JAR ----
+jar.finalizedBy('reobfJar')
 
+// ---- PUBLISHING ----
 publishing {
     publications {
         mavenJava(MavenPublication) {
